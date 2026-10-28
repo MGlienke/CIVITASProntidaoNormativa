@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-002",
+  "id_quesito": "PN-01.01",
+  "dimensao": "D01",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Campinas",
+    "identificador": "3509502",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "1 — Constituição jurídica",
+    "enunciado": "É possível identificar a norma que constitui ou fundamenta juridicamente a existência da Entidade Pública?",
+    "objetivo": "Verificar se a existência institucional da Entidade Pública pode ser juridicamente reconhecida a partir de norma vigente e identificável, permitindo determinar o fundamento de sua constituição no âmbito da Administração Pública.",
+    "fundamentacao_conceitual": "Estado; Ente Federativo; Administração Pública; Entidade Pública; Norma Jurídica.",
+    "relacoes_semanticas": "Constituição → organiza juridicamente → Estado; Estado → organiza-se em → Ente Federativo; Ente Federativo → organiza-se por meio de → Administração Pública; Administração Pública → compreende → Entidade Pública.",
+    "fundamentacao_normativa_metodo": "Normas do Arcabouço Normativo de Referência que disciplinam a organização administrativa e a constituição/criação de Entidades Públicas. N060 — Lei Federal nº 14.600/2023 integra a referência para organização administrativa. Dispositivos e demais Normas de Referência serão vinculados na consolidação da Rede Semântica Normativa.",
+    "evidencias_esperadas": "Constituição e legislação de organização administrativa aplicável; lei ou outro instrumento normativo de criação/autorização de criação da entidade; legislação posterior de reorganização, transformação, fusão, sucessão ou alteração, quando existente.",
+    "objeto_evidenciado_metodo": "Existência jurídica da Entidade Pública e fundamento normativo de sua constituição na estrutura estatal.",
+    "regra_na": "Não aplicável não admitido, por se tratar de condição necessária à própria existência institucional da Entidade Pública objeto da avaliação.",
+    "situacao_metodologica": "Critérios herdados do instrumento v5",
+    "criterios": {
+      "0": "Não foi possível identificar fundamento normativo suficiente para reconhecer juridicamente a existência da Entidade Pública.",
+      "1": "Foi identificado fundamento normativo para a existência da entidade, mas sua determinação depende de normas dispersas, desatualizadas, incompletas ou cuja vigência ou relação entre si não esteja suficientemente estabelecida.",
+      "2": "O fundamento normativo da existência da Entidade Pública está identificado, vigente e permite reconhecer de forma inequívoca sua constituição jurídica."
+    }
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Câmara Municipal de Campinas",
+        "documento": "Lei Orgânica do Município de Campinas, nº 1, de 30/03/1990 (texto compilado até Emenda 55/2025)",
+        "dispositivo": "Lei Orgânica municipal; norma e histórico de alterações",
+        "url": "https://sapl.campinas.sp.leg.br/norma/1",
+        "data_publicacao": "1990-03-30",
+        "data_consulta": "2026-10-28",
+        "vigencia": "TEXTO_COMPILADO_COM_RESSALVAS_DE_CONTROLE_DE_CONSTITUCIONALIDADE",
+        "conteudo_examinado": "Registro legislativo oficial identifica a Lei Orgânica, compilação até Emenda 55/2025 e decisão de inconstitucionalidade parcial relativa ao art. 130.",
+        "evidencia": "Fundamento orgânico municipal documentado oficialmente."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Serviço Acessar a Legislação Municipal",
+        "dispositivo": "Serviço de pesquisa de normas",
+        "url": "https://portal-adm.campinas.sp.gov.br/servico/acessar-legislacao-municipal",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_APLICAVEL_PORTAL",
+        "conteudo_examinado": "Portal oficial informa pesquisa do inteiro teor de leis, decretos e atos normativos.",
+        "evidencia": "Disponibilidade de repositório normativo oficial; não demonstra por si só consolidação de toda estrutura administrativa."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Não foi verificada exaustivamente a cadeia de todas as normas vigentes de reorganização administrativa da Prefeitura.",
+      "Prefeitura é órgão/estrutura da Administração Direta, não pessoa jurídica autônoma; critério literal emprega Entidade Pública.",
+      "A existência da Lei Orgânica não comprova por si só atualidade de todos os atos de organização administrativa."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "Fundamento jurídico do Município de Campinas e de sua organização política, com delimitação da Prefeitura como estrutura executiva.",
+    "achado": "Lei Orgânica identificada em repositório legislativo oficial; determinação completa do quadro vigente da estrutura administrativa não demonstrada nesta investigação.",
+    "justificativa": "O fundamento normativo está identificado, mas a verificação da cadeia atual de normas de organização da Prefeitura é incompleta; aplica-se com ressalvas o critério literal de pontuação 1.",
+    "acao_preparacao": "Confrontar Lei Orgânica e legislação de reorganização administrativa vigente em inteiro teor.",
+    "recomendacao_institucional": "Manter matriz de normas vigentes de organização administrativa e alterações sucessivas.",
+    "observacao_metodologica": "O quesito pressupõe Entidade Pública; a Prefeitura não tem personalidade distinta do Município. Interpretação aplicada ao escopo da Administração Direta."
+  },
+  "resultado": {
+    "classificacao": "PARCIALMENTE_ATENDIDO",
+    "pontos": 1,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+  },
+  "auditoria": {
+    "estado": "CONCLUIDO_COM_RESSALVAS",
+    "verificacoes": [
+      "Identidade, escopo, Método e SHA confirmados",
+      "Critérios 0/1/2 reproduzidos literalmente",
+      "Fonte oficial legislativa consultada",
+      "Classificação 1 compatível com limitação de cadeia normativa"
+    ],
+    "ressalvas": [
+      "Análise não exaustiva de legislação organizacional vigente",
+      "Critério Entidade Pública exige interpretação no contexto de órgão Prefeitura",
+      "Método v1 não homologado"
+    ]
+  }
+}

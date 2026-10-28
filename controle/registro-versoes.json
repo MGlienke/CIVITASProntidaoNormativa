@@ -15,9 +15,9 @@
   },
   "componentes": {
     "coordenador": {
-      "versao": "v1.1",
-      "caminho": "prompts/coordenador-civitas-v1.1.md",
-      "git_blob_sha": "5783f47dd4e3299a7f7a1b9417fb9c00782378cd",
+      "versao": "v1.2",
+      "caminho": "prompts/coordenador-civitas-v1.2.md",
+      "git_blob_sha": "5197037f0a0c32c11dea93794d980e28b48da2c6",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -139,9 +139,10 @@
       "id": "UPD-001",
       "componente": "coordenador",
       "prioridade": "ALTA",
-      "situacao": "PENDENTE",
+      "situacao": "CONCLUIDO",
       "motivo": "Coordenador v1.1 fixa referências antigas aos Prompts 1 e 2 e não implementa consulta obrigatória ao registro.",
-      "acao": "Publicar Coordenador v1.2 com bootstrap do registro e resolução dinâmica das versões; preservar snapshot por avaliação."
+      "acao": "Publicar Coordenador v1.2 com bootstrap do registro e resolução dinâmica das versões; preservar snapshot por avaliação.",
+      "conclusao": "Coordenador v1.2 publicado, com leitura obrigatória do registro e preservação de snapshots."
     },
     {
       "id": "UPD-002",
@@ -181,6 +182,11 @@
       "data": "2026-10-28",
       "evento": "CRIACAO_REGISTRO",
       "detalhe": "Versões e Git blob SHAs confirmados por releitura dos componentes publicados."
+    },
+    {
+      "data": "2026-10-28",
+      "evento": "ATUALIZACAO_COORDENADOR",
+      "detalhe": "v1.2 publicado e ativado; UPD-001 concluída."
     }
   ]
 }

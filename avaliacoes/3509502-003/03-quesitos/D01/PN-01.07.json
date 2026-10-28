@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-003",
+  "id_quesito": "PN-01.07",
+  "dimensao": "D01",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Campinas",
+    "identificador": "3509502",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "4 — Coerência e atualidade normativa",
+    "enunciado": "O arcabouço normativo permite identificar a vigência, as alterações e a sucessão dos atos normativos que instituem ou modificam a organização administrativa, incluindo seus efeitos no tempo?",
+    "objetivo": "Verificar a disciplina normativa da vigência e das alterações organizacionais, com identificação de normas, dispositivos e períodos de aplicação.",
+    "fundamentacao_conceitual": "Norma Jurídica; Administração Pública; Entidade Pública; Órgão Público; Historicidade; Organicidade; Verificabilidade",
+    "relacoes_semanticas": "Historicidade → contribui para → Verificabilidade; Organicidade → contribui para → Verificabilidade (continuidade e alterações institucionais)",
+    "fundamentacao_normativa_metodo": "Normas do Arcabouço Normativo de Referência relativas à vigência, alteração e organização administrativa, acrescidas da cadeia normativa concreta identificada para a entidade.",
+    "evidencias_esperadas": "Normas originárias e modificadoras; atos de revogação; textos consolidados quando existentes; registros oficiais de publicação; histórico normativo que permita estabelecer vigência temporal.",
+    "objeto_evidenciado_metodo": "Vigência, sucessão normativa e historicidade da constituição e organização da entidade.",
+    "regra_na": "Não admitido.",
+    "situacao_metodologica": "Critérios herdados do instrumento v5",
+    "criterios": {
+      "0": "Não é possível determinar com segurança quais normas organizacionais estão vigentes.",
+      "1": "A vigência atual pode ser determinada em parte, mas existem lacunas ou dificuldades relevantes na identificação de alterações, revogações ou sucessões.",
+      "2": "A cadeia normativa pode ser reconstruída, permitindo determinar as normas vigentes e suas alterações, revogações e sucessões relevantes."
+    }
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Câmara Municipal de Campinas",
+        "documento": "Lei Orgânica nº 1/1990 (compilada até Emenda 55/2025)",
+        "dispositivo": "Lei Orgânica municipal",
+        "url": "https://sapl.campinas.sp.leg.br/norma/1",
+        "data_publicacao": "1990-03-30",
+        "data_consulta": "2026-10-28",
+        "vigencia": "PARCIALMENTE_VERIFICADA",
+        "conteudo_examinado": "Registro oficial identifica Lei Orgânica, emendas e declaração de inconstitucionalidade parcial do art. 130.",
+        "evidencia": "Existência de fundamento orgânico normativo e histórico de alterações."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Lei Complementar nº 571/2025",
+        "dispositivo": "Artigos 1º e 2º",
+        "url": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1785931346541213465417859331.pdf",
+        "data_publicacao": "2025-12-30",
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_VERIFICADA_INTEGRALMENTE",
+        "conteudo_examinado": "Reestrutura secretarias municipais e altera leis complementares 59/2014, 301/2021 e 435/2023.",
+        "evidencia": "Norma de reorganização de órgãos da Administração Direta."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Lei Complementar nº 581/2026",
+        "dispositivo": "Art. 1º",
+        "url": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1878231399550413995518782314.pdf",
+        "data_publicacao": "2026-04-14",
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_VERIFICADA_INTEGRALMENTE",
+        "conteudo_examinado": "Altera Anexo I da Lei 10.248/1999 quanto à Secretaria Municipal de Justiça.",
+        "evidencia": "Atualização identificada da estrutura organizacional."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Portal institucional de secretarias",
+        "dispositivo": "Relação de secretarias",
+        "url": "https://www.campinas.sp.gov.br/diario-oficial/guia.php",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_APLICAVEL",
+        "conteudo_examinado": "Portal identifica secretarias e estruturas administrativas.",
+        "evidencia": "Relação institucional pública, sem demonstrar por si só todos os vínculos normativos."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Levantamento preliminar não exaustivo de normas e vigência; evidências compartilhadas no bloco de organização institucional.",
+      "Fontes referenciadas podem não comprovar todos os elementos específicos do quesito."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "A Lei Orgânica possui emendas e há alterações organizacionais em 2025 e 2026.",
+    "achado": "Existe histórico de alterações e atos recentes; não foi recomposta integralmente a cadeia de vigência e sucessão.",
+    "justificativa": "Classificação preliminar 1 segundo critério literal do Método; Existe histórico de alterações e atos recentes; não foi recomposta integralmente a cadeia de vigência e sucessão.",
+    "acao_preparacao": "Reunir e relacionar normas vigentes, anexos organizacionais e alterações pertinentes ao quesito.",
+    "recomendacao_institucional": "Manter rastreabilidade das normas de organização e seus efeitos temporais.",
+    "observacao_metodologica": "A Prefeitura é estrutura da Administração Direta e não pessoa jurídica autônoma; interpretação conforme escopo."
+  },
+  "resultado": {
+    "classificacao": "PARCIALMENTE_ATENDIDO",
+    "pontos": 1,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "PRELIMINAR_COM_RESSALVAS"
+  },
+  "auditoria": {
+    "estado": "NAO_EXECUTADA_AGUARDANDO_PROMPT_3",
+    "verificacoes": [],
+    "ressalvas": []
+  }
+}

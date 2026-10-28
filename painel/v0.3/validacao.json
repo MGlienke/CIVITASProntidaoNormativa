@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_VALIDACAO_TEMPLATE_HTML",
+  "versao_template": "v0.3",
+  "estado": "PUBLICADO_COM_RESSALVAS",
+  "origem": {
+    "nome": "CIVITAS-Painel-HTML-v0.3.html",
+    "file_id": "file_000000008578820e9311a2ab159ad713",
+    "tamanho_bytes": 1123247,
+    "sha256": "9600621b2e439d78167b1ae34040d1907f8644829d6e9f18ffb53255b3d5c06f"
+  },
+  "estrutura": {
+    "ids_html": 24,
+    "ids_duplicados": [],
+    "dimensoes_demo": 10,
+    "scripts": 1,
+    "css_preservado": true,
+    "logo_base64_preservado": true
+  },
+  "alteracoes": [
+    "Preservação integral do HTML original em arquivo separado",
+    "Remoção dos dados demonstrativos de Porto Alegre do template parametrizado",
+    "Identificação interna v0.2 atualizada para v0.3 apenas na cópia preparada",
+    "Leitura de indicadores consolidados sem recomputar totais e índices",
+    "Radar com tratamento explícito de dimensões sem índice",
+    "Faixas de cores ajustadas provisoriamente aos limites operacionais do Método (<50, 50–<80, >=80)",
+    "Validação básica de dez dimensões no carregamento JSON"
+  ],
+  "ressalvas": [
+    {
+      "tipo": "BLOQUEANTE_PARA_USO_PRODUTIVO",
+      "descricao": "Mapeamento campo a campo do JSON de consolidação do Prompt 03 ainda não homologado; contrato de apresentação exige adaptador."
+    },
+    {
+      "tipo": "RESSALVA",
+      "descricao": "Testes visuais de navegador, responsividade e impressão A3 não executados."
+    },
+    {
+      "tipo": "RESSALVA",
+      "descricao": "Faixas de cores são interpretação visual provisória das faixas operacionais do Método."
+    },
+    {
+      "tipo": "RESSALVA",
+      "descricao": "O template original rotula a interface como v0.2 embora o arquivo seja v0.3."
+    },
+    {
+      "tipo": "RESSALVA",
+      "descricao": "JavaScript não foi testado em navegador; validação estrutural não comprova renderização funcional."
+    }
+  ],
+  "verificacoes": {
+    "html_original_preservado": true,
+    "css_identico": true,
+    "dados_demonstrativos_removidos": true,
+    "json_contrato_valido": true,
+    "teste_visual": "NAO_EXECUTADO",
+    "teste_js_navegador": "NAO_EXECUTADO",
+    "publicacao_github": "PUBLICADO_COM_RESSALVAS"
+  },
+  "publicacao": {
+    "autorizacao_usuario": "2026-10-28",
+    "homologacao_para_uso_produtivo": false,
+    "pendencias_impeditivas_mantidas": true
+  }
+}

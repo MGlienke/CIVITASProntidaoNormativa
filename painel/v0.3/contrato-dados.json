@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "versao_template": "v0.3",
+  "estado": "PUBLICADO_COM_RESSALVAS",
+  "entrada": "JSON de apresentação derivado exclusivamente da consolidação versionada do Prompt 03",
+  "origem_consolidacao": "avaliacoes/{ID}/04-consolidacoes/consolidacao-vNNN.json",
+  "campos": {
+    "entidade": {
+      "significado": "Identificação da entidade",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "municipio": {
+      "significado": "Município e UF",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "cnpj": {
+      "significado": "CNPJ quando aplicável",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "data": {
+      "significado": "Data de referência",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "instrumento": {
+      "significado": "Identificação do Método",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "total": {
+      "significado": "Quesitos previstos",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "indice_geral": {
+      "significado": "Índice global consolidado",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "aplicados": {
+      "significado": "Quesitos aplicados",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "atendido": {
+      "significado": "Contagem atendidos",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "parcial": {
+      "significado": "Contagem parciais",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "nao_atendido": {
+      "significado": "Contagem não atendidos",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "na": {
+      "significado": "Contagem não aplicáveis",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "nv": {
+      "significado": "Contagem não verificáveis",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "pendentes": {
+      "significado": "Pendências",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "dimensoes": {
+      "significado": "Dez dimensões na ordem canônica",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "sintese": {
+      "significado": "Quatro sínteses textuais",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    },
+    "nota": {
+      "significado": "Nota metodológica",
+      "origem_exata_consolidacao": null,
+      "estado_mapeamento": "PENDENTE_CONTRATO_PROMPT_03"
+    }
+  },
+  "dimensoes": {
+    "quantidade": 10,
+    "campos": [
+      "codigo",
+      "nome",
+      "total",
+      "atendido",
+      "parcial",
+      "nao_atendido",
+      "nv_na",
+      "pendentes",
+      "indice"
+    ],
+    "indice_nulo": "S/I, sem conversão para zero"
+  },
+  "regras_apresentacao": {
+    "faixas_visuais_preparadas": "<50 vermelho; 50–<80 amarelo; >=80 verde (sujeito à validação visual)",
+    "indicadores": "sem recálculo no HTML; usar números consolidados",
+    "radar": "polígono apenas se 10 índices disponíveis; pontos individuais quando parcialmente disponíveis"
+  },
+  "compatibilidade": {
+    "prompt_03": "NAO_VALIDADA_INTEGRALMENTE",
+    "mapeamento": "PENDENTE"
+  },
+  "observacao": "O contrato requer adaptador explícito e validado no Prompt 05; não alimentar diretamente com JSON consolidado sem mapeamento."
+}

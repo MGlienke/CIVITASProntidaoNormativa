@@ -1,0 +1,35 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-001",
+  "estado": "PREPARADO",
+  "data_preparacao": "2026-10-28",
+  "metodo": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "validacao_arquivo": "metodo/v1/validacao.json",
+    "validacao_git_blob_sha": "1fde868a0b0d7d9d8212c4dd664057d8d095662d",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0",
+    "dimensoes": 10,
+    "quesitos": 115,
+    "identificadores_duplicados": [],
+    "integridade": "VERIFICADA_COM_RESSALVAS"
+  },
+  "artefatos_painel": [
+    {
+      "versao": "v0.3",
+      "template": "painel/v0.3/template.html",
+      "contrato": "painel/v0.3/contrato-dados.json",
+      "validacao": "painel/v0.3/validacao.json",
+      "estado": "PUBLICADO_COM_RESSALVAS"
+    }
+  ],
+  "pendencias": [
+    "Metodo publicado com ressalvas; formulas e criterios metodologicos ainda nao homologados",
+    "Contrato do painel HTML v0.3 ainda nao homologado"
+  ],
+  "limitacoes": [
+    "Teste transversal parcial, nao certificacao de prontidao"
+  ]
+}

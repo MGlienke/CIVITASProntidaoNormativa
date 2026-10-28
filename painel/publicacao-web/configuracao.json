@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_CONFIGURACAO_PUBLICACAO_WEB",
+  "provedor": "GITHUB_PAGES",
+  "repositorio": "MGlienke/CIVITASProntidaoNormativa",
+  "estado": "PENDENTE_VERIFICACAO_E_CONFIGURACAO",
+  "origem": null,
+  "branch": null,
+  "diretorio": null,
+  "base_url": null,
+  "dominio_personalizado": null,
+  "implantacao_verificada": false,
+  "renderizacao_verificada": false,
+  "politica": {
+    "caminho_html": "avaliacoes/{ID}/06-paineis/{arquivo_html}",
+    "publicacao_publica": "REQUER_AUTORIZACAO_E_REVISAO_DE_DADOS",
+    "url": "NAO_PUBLICAR_COMO_VALIDADA_SEM_TESTE",
+    "prototipo": "EXIGIR_AVISO_NAO_HOMOLOGADO",
+    "offline": "HTML_AUTOCONTIDO"
+  },
+  "instrucao": "No GitHub: Settings > Pages > Build and deployment; selecionar origem, branch main e /(root) se compatível com política do repositório. Verificar a URL real exibida pelo GitHub.",
+  "observacao": "A conexão GitHub disponível não permite verificar nem configurar a API Pages; não presumir URL ativa."
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "5208707-001",
+  "id_quesito": "PN-01.01",
+  "dimensao": "D01",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Goiânia",
+    "identificador": "5208707",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "CIVITAS Prontidão Normativa - Metodo - v1.xlsx",
+    "versao": "v1",
+    "sha256": null,
+    "origem": "BIBLIOTECA"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "1 — Constituição jurídica",
+    "enunciado": "É possível identificar a norma que constitui ou fundamenta juridicamente a existência da Entidade Pública?",
+    "objetivo": "Identificar fundamento normativo vigente da existência institucional.",
+    "criterios": {
+      "0": "Fundamento normativo insuficiente",
+      "1": "Fundamento identificado, mas disperso ou sem vigência suficientemente estabelecida",
+      "2": "Fundamento normativo identificado, vigente e inequívoco"
+    },
+    "regra_na": "Não aplicável não admitido"
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "documento": "Constituição Federal",
+        "dispositivo": "art. 18",
+        "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "documento": "Lei Orgânica de Goiânia",
+        "dispositivo": "art. 1º",
+        "url": "https://www.goiania.go.leg.br/leis/Legislacao-Compilada_PDF/Lei-Organica-do-Municipio-de-Goiania"
+      },
+      {
+        "documento": "Lei Complementar municipal 335/2021",
+        "dispositivo": "art. 1º",
+        "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2021/lc_20210101_000000335.html"
+      },
+      {
+        "documento": "Lei Complementar municipal 382/2024",
+        "dispositivo": "arts. 1º e 2º",
+        "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2024/lc_20241230_000000382.html"
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Não auditada integralmente a cadeia de alterações normativas."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "Fundamento jurídico do Município e organização da Prefeitura.",
+    "achado": "Constituição, Lei Orgânica e legislação complementar municipal identificadas.",
+    "justificativa": "O Município é ente federativo; a Prefeitura integra sua Administração Direta. A cadeia normativa encontrada fundamenta a existência e organização institucional.",
+    "acao_preparacao": "Manter catálogo normativo atualizado.",
+    "recomendacao_institucional": "Consolidar referências e histórico de vigência.",
+    "observacao_metodologica": "Distinguir Município (pessoa jurídica) de Prefeitura (estrutura administrativa)."
+  },
+  "resultado": {
+    "classificacao": "ATENDIDO",
+    "pontos": 2,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+  },
+  "auditoria": {
+    "estado": "CONCLUIDO",
+    "verificacoes": [
+      "Fontes oficiais verificadas",
+      "Classificação compatível com pontuação"
+    ],
+    "ressalvas": [
+      "SHA do Método não disponível"
+    ]
+  }
+}

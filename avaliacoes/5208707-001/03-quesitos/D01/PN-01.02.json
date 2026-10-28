@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "5208707-001",
+  "id_quesito": "PN-01.02",
+  "dimensao": "D01",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Goiânia",
+    "identificador": "5208707",
+    "escopo": "Administração Direta do Poder Executivo municipal; pessoa jurídica: Município de Goiânia"
+  },
+  "metodo_referencia": {
+    "arquivo": "CIVITAS Prontidão Normativa - Metodo - v1.xlsx",
+    "versao": "v1",
+    "sha256": null,
+    "origem": "BIBLIOTECA:/CIVITAS/Prontidao Normativa/Metodo/"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "1 — Constituição jurídica",
+    "enunciado": "A natureza jurídica da Entidade Pública está claramente estabelecida no arcabouço normativo vigente?",
+    "objetivo": "Verificar se o arcabouço normativo permite determinar de maneira inequívoca a natureza jurídica da entidade e reconhecer o regime institucional básico sob o qual ela integra a Administração Pública.",
+    "fundamentacao_conceitual": "Administração Pública; Entidade Pública; Ente Federativo; Norma Jurídica.",
+    "relacoes_semanticas": "Ente Federativo → organiza-se por meio de → Administração Pública; Administração Pública → compreende → Entidade Pública.",
+    "fundamentacao_normativa_metodo": "Normas do Arcabouço Normativo de Referência que estabelecem as formas de organização da Administração Pública e as diferentes naturezas jurídicas de suas entidades. N060 — Lei Federal nº 14.600/2023 integra a referência relativa à organização administrativa. A fundamentação específica será completada pela Rede Semântica Normativa.",
+    "evidencias_esperadas": "Norma constitutiva; legislação de organização administrativa; estatuto ou instrumento equivalente, quando juridicamente aplicável; normas posteriores que tenham alterado a natureza, forma ou enquadramento institucional da entidade.",
+    "objeto_evidenciado_metodo": "Natureza jurídica vigente da Entidade Pública e seu enquadramento institucional na Administração Pública.",
+    "criterios": {
+      "0": "O arcabouço normativo identificado não permite determinar com segurança a natureza jurídica vigente da entidade.",
+      "1": "A natureza jurídica pode ser inferida ou identificada, mas existem ambiguidades, divergências, desatualizações ou dependência de instrumentos cuja articulação ou vigência não esteja suficientemente estabelecida.",
+      "2": "A natureza jurídica da Entidade Pública está expressamente ou inequivocamente estabelecida por normas vigentes e pode ser determinada sem inconsistências relevantes."
+    },
+    "regra_na": "Não aplicável não admitido, pois toda Entidade Pública submetida à avaliação deve possuir natureza jurídica determinável.",
+    "situacao_metodologica": "Critérios herdados do instrumento v5"
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Câmara Municipal de Goiânia",
+        "documento": "Lei Orgânica do Município de Goiânia, compilada até ELO 88/2025",
+        "dispositivo": "arts. 1º, 7º, 13 e 115",
+        "url": "https://transparencia.camaragyn.go.gov.br/files/Legislacao-compilada/Lei-Organica-do-Municipio-de-Goiania.htm",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "VERIFICADA_NA_FONTE_OFICIAL_COM_LIMITACAO_DE_AUDITORIA_EXAUSTIVA",
+        "conteudo_examinado": "Distingue autonomia municipal, administração direta/indireta e atribuições do Prefeito.",
+        "evidencia": "Distingue autonomia municipal, administração direta/indireta e atribuições do Prefeito."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Goiânia",
+        "documento": "Lei Complementar nº 335/2021 (texto com alterações)",
+        "dispositivo": "arts. 1º, 21, 22 e 24",
+        "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2021/lc_20210101_000000335.html",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "VERIFICADA_NA_FONTE_OFICIAL_COM_LIMITACAO_DE_AUDITORIA_EXAUSTIVA",
+        "conteudo_examinado": "Distingue órgãos da Administração Direta das entidades da Administração Indireta e define estrutura do Poder Executivo.",
+        "evidencia": "Distingue órgãos da Administração Direta das entidades da Administração Indireta e define estrutura do Poder Executivo."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Goiânia",
+        "documento": "Lei Complementar nº 382/2024",
+        "dispositivo": "arts. 1º, 2º e 16",
+        "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2024/lc_20241230_000000382.html",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "VERIFICADA_NA_FONTE_OFICIAL_COM_LIMITACAO_DE_AUDITORIA_EXAUSTIVA",
+        "conteudo_examinado": "Altera expressamente a LC 335/2021 e reorganiza a administração a partir de 2025.",
+        "evidencia": "Altera expressamente a LC 335/2021 e reorganiza a administração a partir de 2025."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Goiânia",
+        "documento": "Decreto nº 133/2025",
+        "dispositivo": "arts. 1º e 2º",
+        "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2025/dc_20250110_000000133.html",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "VERIFICADA_NA_FONTE_OFICIAL_COM_LIMITACAO_DE_AUDITORIA_EXAUSTIVA",
+        "conteudo_examinado": "Estabelece transição da nova estrutura organizacional do Executivo.",
+        "evidencia": "Estabelece transição da nova estrutura organizacional do Executivo."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Não houve auditoria exaustiva de todas as alterações posteriores das normas organizacionais.",
+      "O Método está na Biblioteca e não possui SHA-256 confirmado no contexto.",
+      "N060 (Lei 14.600/2023) é referência federal genérica no Método, não fundamento específico do enquadramento municipal."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "Enquadramento da Prefeitura na Administração Direta do Poder Executivo do Município de Goiânia, distinto da pessoa jurídica de direito público Município de Goiânia.",
+    "achado": "A Lei Orgânica estabelece a autonomia do Município e distingue administração direta e indireta; a LC 335/2021 define órgãos da Administração Direta e entidades da Indireta, com alterações expressas pela LC 382/2024.",
+    "justificativa": "A natureza institucional é determinável sem inconsistência relevante quando se distingue Município (ente federativo/pessoa jurídica) de Prefeitura (estrutura do Poder Executivo, sem personalidade jurídica própria). O enquadramento da Prefeitura na Administração Direta está inequívoco na legislação municipal vigente consultada, satisfazendo o critério 2.",
+    "acao_preparacao": "Manter cadastro institucional com classificação distinta de Município, órgãos e entidades da Administração Indireta.",
+    "recomendacao_institucional": "Publicar ou manter catálogo normativo consolidado que identifique natureza e enquadramento de cada órgão e entidade, com histórico das alterações.",
+    "observacao_metodologica": "O termo Entidade Pública exige leitura contextual no caso da Prefeitura: a Prefeitura não é pessoa jurídica autônoma."
+  },
+  "resultado": {
+    "classificacao": "ATENDIDO",
+    "pontos": 2,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "VERIFICADO_COM_RESSALVAS_DE_ABRANGENCIA"
+  },
+  "auditoria": {
+    "estado": "CONCLUIDO_COM_RESSALVAS",
+    "verificacoes": [
+      "Identidade e escopo conferidos nos dois JSONs do Prompt 1",
+      "Linha e critérios 0/1/2 transcritos do Método v1",
+      "Fontes oficiais identificadas e relacionadas à classificação",
+      "Pontuação 2 coerente com critério 2",
+      "Nenhum outro quesito ou planilha alterado"
+    ],
+    "ressalvas": [
+      "Hash do Método não disponível",
+      "Sem auditoria exaustiva de alterações normativas"
+    ]
+  }
+}

@@ -15,9 +15,9 @@
   },
   "componentes": {
     "coordenador": {
-      "versao": "v1.3",
-      "caminho": "prompts/coordenador-civitas-v1.3.md",
-      "git_blob_sha": "a89b52eb42b2f2e8d775a24af25de7901cbb3aeb",
+      "versao": "v1.4",
+      "caminho": "prompts/coordenador-civitas-v1.4.md",
+      "git_blob_sha": "e30137f825c89bc58fd1879df747289a18ed59f2",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -210,6 +210,11 @@
         "prompt_0_html",
         "configuracao_publicacao_web"
       ]
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "ATUALIZACAO_COORDENADOR",
+      "descricao": "v1.4: avaliação sequencial dos 115 quesitos sem auditoria/checkpoint por dimensão; auditoria concentrada no Prompt 3; confirmações técnicas de persistência preservadas."
     }
   ]
 }

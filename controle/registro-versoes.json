@@ -15,9 +15,9 @@
   },
   "componentes": {
     "coordenador": {
-      "versao": "v1.2",
-      "caminho": "prompts/coordenador-civitas-v1.2.md",
-      "git_blob_sha": "5197037f0a0c32c11dea93794d980e28b48da2c6",
+      "versao": "v1.3",
+      "caminho": "prompts/coordenador-civitas-v1.3.md",
+      "git_blob_sha": "a89b52eb42b2f2e8d775a24af25de7901cbb3aeb",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -29,9 +29,9 @@
       "uso": "ATIVO"
     },
     "prompt_0_html": {
-      "versao": "v1.0",
-      "caminho": "prompts/prompt-0-html-painel-v1.0.md",
-      "git_blob_sha": "e1c7cddcbd23f91b582be833e9702966d77435b4",
+      "versao": "v1.1",
+      "caminho": "prompts/prompt-0-html-painel-v1.1.md",
+      "git_blob_sha": "7b7a6fffb64517de4a7fa9e043e1b29629176fdf",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -64,9 +64,9 @@
       "uso": "ATIVO"
     },
     "prompt_5": {
-      "versao": "v1.0",
-      "caminho": "prompts/prompt-5-geracao-painel-html-v1.0.md",
-      "git_blob_sha": "d178fc7365a27ba03f3f6b1b2dfc3d2e7050ef2a",
+      "versao": "v1.1",
+      "caminho": "prompts/prompt-5-geracao-painel-html-v1.1.md",
+      "git_blob_sha": "70228fca0db596dee70ca695db00dc44137da929",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -104,6 +104,13 @@
       "git_blob_sha": "eed75e1b7442896fc0ac04538b5a343791a48eb7",
       "estado": "PUBLICADO_COM_RESSALVAS",
       "uso": "ATIVO"
+    },
+    "configuracao_publicacao_web": {
+      "versao": "v1.0",
+      "caminho": "painel/publicacao-web/configuracao.json",
+      "git_blob_sha": "41e403a03d56acbad117379a7ce0eb131300fc42",
+      "estado": "PENDENTE_CONFIGURACAO",
+      "uso": "ATIVO_PARA_VERIFICACAO"
     }
   },
   "dependencias": {
@@ -131,7 +138,12 @@
       "metodo",
       "template_html",
       "contrato_html",
-      "validacao_html"
+      "validacao_html",
+      "configuracao_publicacao_web"
+    ],
+    "coordenador": [
+      "prompt_5",
+      "configuracao_publicacao_web"
     ]
   },
   "pendencias_atualizacao": [
@@ -187,6 +199,17 @@
       "data": "2026-10-28",
       "evento": "ATUALIZACAO_COORDENADOR",
       "detalhe": "v1.2 publicado e ativado; UPD-001 concluída."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "ATUALIZACAO_COMPONENTES",
+      "descricao": "Publicação GitHub Pages e validação de URL renderizada adicionadas ao Coordenador v1.3, Prompt 05 v1.1 e Prompt 0-H v1.1; Pages ainda pendente de configuração/verificação.",
+      "componentes": [
+        "coordenador",
+        "prompt_5",
+        "prompt_0_html",
+        "configuracao_publicacao_web"
+      ]
     }
   ]
 }

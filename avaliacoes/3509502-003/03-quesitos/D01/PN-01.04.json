@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-003",
+  "id_quesito": "PN-01.04",
+  "dimensao": "D01",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Campinas",
+    "identificador": "3509502",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "3 — Organização administrativa",
+    "enunciado": "A estrutura organizacional vigente da Entidade Pública está formalmente estabelecida em normas identificáveis?",
+    "objetivo": "Determinar se a organização interna vigente da entidade pode ser reconstruída a partir de instrumentos normativos formalmente identificados.",
+    "fundamentacao_conceitual": "Administração Pública; Entidade Pública; Órgão Público; Norma Jurídica.",
+    "relacoes_semanticas": "Administração Pública → compreende → Entidade Pública; Administração Pública → compreende → Órgão Público; Entidade Pública → composta por → Órgão Público.",
+    "fundamentacao_normativa_metodo": "Normas de Referência relativas à organização administrativa, incluindo N060, complementadas pelas normas que disciplinam estruturas, regimentos e organização interna, a serem vinculadas pela Rede Semântica Normativa.",
+    "evidencias_esperadas": "Lei ou decreto de estrutura; regimento interno; estatuto, quando aplicável; atos normativos de criação, transformação, extinção ou reorganização de unidades.",
+    "objeto_evidenciado_metodo": "Estrutura organizacional formalmente vigente da Entidade Pública.",
+    "regra_na": "Não admitido.",
+    "situacao_metodologica": "Critérios herdados do instrumento v5",
+    "criterios": {
+      "0": "Não é possível reconstruir normativamente a estrutura organizacional vigente.",
+      "1": "A estrutura pode ser parcialmente reconstruída, mas existem lacunas, dispersão, desatualizações ou inconsistências relevantes.",
+      "2": "A estrutura organizacional vigente pode ser integral e coerentemente reconstruída a partir das normas identificadas."
+    }
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Câmara Municipal de Campinas",
+        "documento": "Lei Orgânica nº 1/1990 (compilada até Emenda 55/2025)",
+        "dispositivo": "Lei Orgânica municipal",
+        "url": "https://sapl.campinas.sp.leg.br/norma/1",
+        "data_publicacao": "1990-03-30",
+        "data_consulta": "2026-10-28",
+        "vigencia": "PARCIALMENTE_VERIFICADA",
+        "conteudo_examinado": "Registro oficial identifica Lei Orgânica, emendas e declaração de inconstitucionalidade parcial do art. 130.",
+        "evidencia": "Existência de fundamento orgânico normativo e histórico de alterações."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Lei Complementar nº 571/2025",
+        "dispositivo": "Artigos 1º e 2º",
+        "url": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1785931346541213465417859331.pdf",
+        "data_publicacao": "2025-12-30",
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_VERIFICADA_INTEGRALMENTE",
+        "conteudo_examinado": "Reestrutura secretarias municipais e altera leis complementares 59/2014, 301/2021 e 435/2023.",
+        "evidencia": "Norma de reorganização de órgãos da Administração Direta."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Lei Complementar nº 581/2026",
+        "dispositivo": "Art. 1º",
+        "url": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1878231399550413995518782314.pdf",
+        "data_publicacao": "2026-04-14",
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_VERIFICADA_INTEGRALMENTE",
+        "conteudo_examinado": "Altera Anexo I da Lei 10.248/1999 quanto à Secretaria Municipal de Justiça.",
+        "evidencia": "Atualização identificada da estrutura organizacional."
+      },
+      {
+        "orgao": "Prefeitura Municipal de Campinas",
+        "documento": "Portal institucional de secretarias",
+        "dispositivo": "Relação de secretarias",
+        "url": "https://www.campinas.sp.gov.br/diario-oficial/guia.php",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_APLICAVEL",
+        "conteudo_examinado": "Portal identifica secretarias e estruturas administrativas.",
+        "evidencia": "Relação institucional pública, sem demonstrar por si só todos os vínculos normativos."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Levantamento preliminar não exaustivo de normas e vigência; evidências compartilhadas no bloco de organização institucional.",
+      "Fontes referenciadas podem não comprovar todos os elementos específicos do quesito."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "As LC 571/2025 e 581/2026 mostram modificações setoriais posteriores.",
+    "achado": "Há leis estruturais e modificadoras, mas a reconstrução integral da estrutura vigente depende da conciliação de anexos e alterações.",
+    "justificativa": "Classificação preliminar 1 segundo critério literal do Método; Há leis estruturais e modificadoras, mas a reconstrução integral da estrutura vigente depende da conciliação de anexos e alterações.",
+    "acao_preparacao": "Reunir e relacionar normas vigentes, anexos organizacionais e alterações pertinentes ao quesito.",
+    "recomendacao_institucional": "Manter rastreabilidade das normas de organização e seus efeitos temporais.",
+    "observacao_metodologica": "A Prefeitura é estrutura da Administração Direta e não pessoa jurídica autônoma; interpretação conforme escopo."
+  },
+  "resultado": {
+    "classificacao": "PARCIALMENTE_ATENDIDO",
+    "pontos": 1,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "PRELIMINAR_COM_RESSALVAS"
+  },
+  "auditoria": {
+    "estado": "NAO_EXECUTADA_AGUARDANDO_PROMPT_3",
+    "verificacoes": [],
+    "ressalvas": []
+  }
+}

@@ -4,17 +4,17 @@
   "entidade": "Prefeitura Municipal de Campinas",
   "tipo": "TESTE_INTEGRAL_INDEPENDENTE",
   "avaliacao_anterior_referencia": "3509502-001",
-  "coordenador_versao": "v1.3",
+  "coordenador_versao": "v1.4",
   "registro_versoes": {
     "caminho": "controle/registro-versoes.json",
-    "git_blob_sha": "0be06d68ec2a5a7b597a6878235271dbd923258d",
+    "git_blob_sha": "3199bca33c0838297273d24fc4b7ad970e7c84cb",
     "consultado_em": "2026-10-28"
   },
   "snapshot_componentes": {
     "coordenador": {
-      "versao": "v1.3",
-      "caminho": "prompts/coordenador-civitas-v1.3.md",
-      "git_blob_sha": "a89b52eb42b2f2e8d775a24af25de7901cbb3aeb"
+      "versao": "v1.4",
+      "caminho": "prompts/coordenador-civitas-v1.4.md",
+      "git_blob_sha": "e30137f825c89bc58fd1879df747289a18ed59f2"
     },
     "prompt_0_metodo": {
       "versao": "v1.0",
@@ -153,6 +153,11 @@
       "tipo": "QUESITO_PERSISTIDO",
       "id_quesito": "PN-01.01",
       "descricao": "Avaliação independente com fonte oficial e ressalvas; 1/115. Prompt 3 ainda não executado."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "MIGRACAO_EXPLICITA_COORDENADOR",
+      "descricao": "Autorização do usuário para adaptar o Coordenador: v1.3 -> v1.4; sem auditoria intermediária; auditoria apenas no Prompt 3. Resultado PN-01.01 preservado."
     }
   ],
   "atualizado_em": "2026-10-28"

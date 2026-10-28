@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-001",
+  "id_quesito": "PN-09.01",
+  "dimensao": "D09",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Campinas",
+    "identificador": "3509502",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "1 — Governança",
+    "enunciado": "É possível identificar os fundamentos normativos que estabelecem as instâncias de governança da Entidade Pública, suas competências, atribuições, responsabilidades e relações de coordenação, supervisão e controle, distinguindo os órgãos e agentes responsáveis por cada função?",
+    "objetivo": "Verificar documentalmente se as instâncias de governança e suas competências estão normativamente estabelecidas, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+    "fundamentacao_conceitual": "Administração Pública; Competência; Governança; Responsabilidade; Norma Jurídica",
+    "relacoes_semanticas": "NORMA JURÍDICA → obriga → ADMINISTRAÇÃO PÚBLICA",
+    "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+    "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+    "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+    "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+    "situacao_metodologica": "Redação atualizada; conferir alinhamento dos critérios originais",
+    "criterios": {
+      "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+      "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+      "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+    }
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+        "documento": "Decreto 17.301/2011 e LC 202/2018",
+        "dispositivo": "Sistema de Controle Interno",
+        "url": "https://campinas.sp.gov.br/secretaria/gestao-e-controle/sobre",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "VERIFICACAO_PARCIAL",
+        "conteudo_examinado": "Lei Orgânica define atribuições do Prefeito e a Secretaria Municipal de Gestão e Controle tem função de controle interno; não foi verificada a matriz completa de instâncias de governança e relações.",
+        "evidencia": "Instância formal de controle e sua função institucional identificadas; articulação geral de governança ainda não mapeada."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+      "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "Instância formal de controle e sua função institucional identificadas; articulação geral de governança ainda não mapeada.",
+    "achado": "Lei Orgânica define atribuições do Prefeito e a Secretaria Municipal de Gestão e Controle tem função de controle interno; não foi verificada a matriz completa de instâncias de governança e relações.",
+    "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Lei Orgânica define atribuições do Prefeito e a Secretaria Municipal de Gestão e Controle tem função de controle interno; não foi verificada a matriz completa de instâncias de governança e relações.",
+    "acao_preparacao": "Mapear instâncias de governança, coordenação, supervisão e controle com atos vigentes.",
+    "recomendacao_institucional": "Mapear instâncias de governança, coordenação, supervisão e controle com atos vigentes.",
+    "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+  },
+  "resultado": {
+    "classificacao": "PARCIALMENTE_ATENDIDO",
+    "pontos": 1,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+  },
+  "auditoria": {
+    "estado": "CONCLUIDO_COM_RESSALVAS",
+    "verificacoes": [
+      "ID e dimensão conferidos com Método JSON",
+      "Critérios 0/1/2 transcritos literalmente",
+      "Fonte institucional identificada e URL registrada",
+      "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+    ],
+    "ressalvas": [
+      "Amostragem e verificação normativa parcial",
+      "Não homologação integral do Método"
+    ]
+  }
+}

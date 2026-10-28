@@ -21,8 +21,23 @@
     "falhas": 0
   },
   "etapa_C": {
-    "estado": "PENDENTE",
-    "objetivo": "Validar integração real com template HTML v0.3, JavaScript, radar, layout e offline"
+    "estado": "INTEGRACAO_ESTRUTURAL_CONCLUIDA_TESTES_NAVEGADOR_PENDENTES",
+    "resultado": "PROTOTIPO_HTML_PUBLICADO_NAO_HOMOLOGADO",
+    "prototipo": {
+      "caminho": "avaliacoes/3509502-001/06-paineis/painel-v001-prototipo.html",
+      "git_blob_sha": "a8a5d6ac54b09bda6865a9cdfa166daef8be7b38"
+    },
+    "validacao": {
+      "caminho": "painel/v0.4/validacao-integracao-campinas-v001.json",
+      "git_blob_sha": "fbfd5788ffc91cd5a972c0d25001106b8f02cedb"
+    },
+    "pendencias": [
+      "Execução JS e inspeção DOM em navegador",
+      "Radar e tabela visuais",
+      "Layout desktop e responsividade",
+      "Impressão A3",
+      "Abertura offline e controles de importação/exportação"
+    ]
   },
   "etapa_D": {
     "estado": "PENDENTE",

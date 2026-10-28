@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-003",
+  "estado": "IDENTIFICADA",
+  "nome_informado": "Prefeitura Municipal de Campinas - SP",
+  "entidade_nome": "Prefeitura Municipal de Campinas",
+  "entidade_sigla": "PMC",
+  "entidade_cnpj": "51.885.242/0001-40",
+  "municipio_uf": "Campinas – SP",
+  "website_institucional": "https://www.campinas.sp.gov.br/",
+  "identificadores": {
+    "ibge": "3509502",
+    "outros": []
+  },
+  "natureza_institucional": "Prefeitura Municipal — estrutura executiva da Administração Direta do Município de Campinas; não constitui pessoa jurídica distinta do Município",
+  "pessoa_juridica_responsavel": {
+    "nome": "Município de Campinas",
+    "cnpj": "51.885.242/0001-40",
+    "observacao": "CNPJ divulgado pela Prefeitura para a sua identificação cadastral; não implica personalidade jurídica própria do órgão Prefeitura"
+  },
+  "escopo": {
+    "objeto": "Prefeitura Municipal de Campinas",
+    "abrangencia": "Administração Direta do Poder Executivo municipal",
+    "exclusoes": [
+      "Poder Legislativo municipal",
+      "Entidades da Administração Indireta, salvo evidências necessárias à compreensão da Administração Direta"
+    ],
+    "observacao": "Nova avaliação integral independente; não herdar classificações anteriores"
+  },
+  "data_referencia": "2026-10-28",
+  "data_pesquisa": "2026-10-28",
+  "campos_verificados": {
+    "entidade_nome": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://www.campinas.sp.gov.br/"
+    },
+    "entidade_cnpj": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://portal-adm.campinas.sp.gov.br/node/137205"
+    },
+    "municipio_uf": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://www.ibge.gov.br/explica/codigos-dos-municipios.php"
+    },
+    "identificador_ibge": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://www.ibge.gov.br/en/cities-and-states/sp/campinas.html"
+    },
+    "entidade_sigla": {
+      "situacao": "PENDENTE",
+      "observacao": "Sigla PMC utilizada como abreviação operacional; confirmação de sigla formal pendente"
+    }
+  },
+  "fontes_institucionais": [
+    {
+      "campo": "entidade_nome",
+      "url": "https://www.campinas.sp.gov.br/",
+      "data_consulta": "2026-10-28"
+    },
+    {
+      "campo": "entidade_cnpj",
+      "url": "https://portal-adm.campinas.sp.gov.br/node/137205",
+      "data_consulta": "2026-10-28"
+    },
+    {
+      "campo": "municipio_uf",
+      "url": "https://www.ibge.gov.br/explica/codigos-dos-municipios.php",
+      "data_consulta": "2026-10-28"
+    },
+    {
+      "campo": "identificadores.ibge",
+      "url": "https://www.ibge.gov.br/en/cities-and-states/sp/campinas.html",
+      "data_consulta": "2026-10-28"
+    }
+  ],
+  "repositorios_normativos": [
+    {
+      "nome": "Biblioteca Jurídica Municipal",
+      "url": "https://campinas.sp.gov.br/bibliotecajuridica",
+      "fonte": "https://portal-adm.campinas.sp.gov.br/servico/acessar-legislacao-municipal"
+    },
+    {
+      "nome": "Diário Oficial do Município",
+      "url": "https://www.campinas.sp.gov.br/diario-oficial/",
+      "fonte": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1927351429370614293719273503.pdf"
+    }
+  ],
+  "pendencias": [
+    "Confirmar sigla oficial PMC, se aplicável",
+    "Confirmar detalhes de estrutura e legislação orgânica em cada quesito",
+    "Revalidar vigência e evidências oficiais durante a avaliação integral",
+    "Confirmar atualidade das fontes institucionais durante a avaliação"
+  ],
+  "limitacoes": [
+    "A identificação institucional não constitui avaliação de mérito dos quesitos"
+  ]
+}

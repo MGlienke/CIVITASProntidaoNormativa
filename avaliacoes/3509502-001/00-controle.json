@@ -81,8 +81,8 @@
     "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
     "estado_publicacao": "PUBLICADO_COM_RESSALVAS"
   },
-  "fase_atual": "GERACAO_PAINEL",
-  "estado": "PLANILHA_V001_GERADA_LOCALMENTE_COM_RESSALVAS",
+  "fase_atual": "SANEAMENTO_PAINEL",
+  "estado": "TESTE_TRANSVERSAL_CONCLUIDO_COM_BLOQUEIO_PAINEL",
   "progresso_por_dimensao": {
     "D01": {
       "avaliados": 1,
@@ -130,7 +130,9 @@
     "01-ambiente.json": "a6efb4e1558fd4358aebefa076f9ef43976f3cf9",
     "02-entidade.json": "742e6637caf5ab90ddd03ff6063687b6934b68a9",
     "04-consolidacoes/consolidacao-v001.json": "a33c716ce0fd8dae214f31987864691f36587bbc",
-    "05-planilhas/resultados-v001-validacao.json": "bc29cd3d7d9c06e1655399d2d50fd68667556d6e"
+    "05-planilhas/resultados-v001-validacao.json": "bc29cd3d7d9c06e1655399d2d50fd68667556d6e",
+    "06-paineis/painel-v001-dados.json": "14a9808f26644aab984b6a6fed668b6abcca2271",
+    "06-paineis/painel-v001-validacao.json": "b6f70555c2a4797814f3f763513a8da320ce6c65"
   },
   "checkpoints": [],
   "pendencias": [
@@ -158,6 +160,11 @@
       "data": "2026-10-28",
       "tipo": "PLANILHA_V001_GERADA",
       "descricao": "XLSX local gerado e validado estruturalmente; 115 quesitos, 10 dimensões; índices nulos; publicação binária GitHub pendente."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "PROMPT_5_BLOQUEADO_COM_DADOS_PUBLICADOS",
+      "descricao": "Dados e mapeamento do painel v001 publicados; HTML não gerado: fonte parcial, contrato não homologado e template integral não recuperado."
     }
   ],
   "atualizado_em": "2026-10-28",
@@ -197,5 +204,23 @@
     "validacao_arquivo": "avaliacoes/3509502-001/05-planilhas/resultados-v001-validacao.json",
     "validacao_git_blob_sha": "bc29cd3d7d9c06e1655399d2d50fd68667556d6e",
     "estado_validacao": "APROVADO_COM_RESSALVAS"
+  },
+  "painel_atual": {
+    "versao": "v001",
+    "estado": "BLOQUEADO",
+    "html_gerado": false,
+    "dados": {
+      "caminho": "avaliacoes/3509502-001/06-paineis/painel-v001-dados.json",
+      "git_blob_sha": "14a9808f26644aab984b6a6fed668b6abcca2271"
+    },
+    "validacao": {
+      "caminho": "avaliacoes/3509502-001/06-paineis/painel-v001-validacao.json",
+      "git_blob_sha": "b6f70555c2a4797814f3f763513a8da320ce6c65"
+    },
+    "bloqueios": [
+      "CONSOLIDACAO_NAO_APTA_PAINEL",
+      "CONTRATO_HTML_NAO_HOMOLOGADO",
+      "TEMPLATE_HTML_INACESSIVEL_INTEGRALMENTE"
+    ]
   }
 }

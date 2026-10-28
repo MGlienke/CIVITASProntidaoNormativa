@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_ESTADO_VALIDACAO_CONTRATO_HTML",
+  "contrato": {
+    "versao": "v0.4",
+    "caminho": "painel/v0.4/contrato-dados.json",
+    "git_blob_sha": "9f0e9c8e8140508e200d1be7551ba3181c0ddd3f"
+  },
+  "etapa_A": {
+    "estado": "CONCLUIDA",
+    "resultado": "CONTRATO_PROPOSTO"
+  },
+  "etapa_B": {
+    "estado": "CONCLUIDA_COM_RESSALVAS",
+    "resultado": "MAPEAMENTO_SEMANTICO_VALIDADO_NO_CENARIO_CAMPINAS",
+    "relatorio": {
+      "caminho": "painel/v0.4/validacao-semantica-campinas-v001.json",
+      "git_blob_sha": "3a401efa99dc1e6395b72656733e4e32c64dc297"
+    },
+    "testes": 181,
+    "falhas": 0
+  },
+  "etapa_C": {
+    "estado": "PENDENTE",
+    "objetivo": "Validar integração real com template HTML v0.3, JavaScript, radar, layout e offline"
+  },
+  "etapa_D": {
+    "estado": "PENDENTE",
+    "objetivo": "Homologar e atualizar Registro de Versões após testes de integração"
+  },
+  "estado_geral": "NAO_HOMOLOGADO",
+  "observacao": "Aprovação semântica para o cenário Campinas não equivale à homologação do contrato nem do painel."
+}

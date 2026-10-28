@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_VALIDACAO_PLANILHA",
+  "id_avaliacao": "3509502-001",
+  "versao_planilha": "v001",
+  "consolidacao": {
+    "versao": "v001",
+    "git_blob_sha": "a33c716ce0fd8dae214f31987864691f36587bbc"
+  },
+  "metodo": {
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b"
+  },
+  "arquivo_xlsx": "CIVITAS_Campinas_3509502-001_resultados-v001.xlsx",
+  "sha256_xlsx": "21080d91f1da5b7bfef6492557866771b2ee4a8628d1eec1f3a31a0f4f653e92",
+  "estado": "APROVADO_COM_RESSALVAS",
+  "publicacao_github": "PENDENTE_XLSX_BINARIO",
+  "auditoria": {
+    "abas": [
+      "ID",
+      "METODO",
+      "AVALIACAO",
+      "RESULTADOS",
+      "PAINEL",
+      "LISTAS",
+      "EVIDENCIAS",
+      "CAMPO",
+      "AUDITORIA"
+    ],
+    "quesitos_metodo": 115,
+    "linhas_avaliacao": 115,
+    "fontes_evidencias": 10,
+    "dimensoes": 10,
+    "validos_com_ressalvas": 10,
+    "ausentes": 105,
+    "classificacoes": {
+      "ATENDIDO": 4,
+      "PARCIALMENTE_ATENDIDO": 6
+    },
+    "indice_oficial": null,
+    "xlsx_zip_valido": true
+  },
+  "ressalvas": [
+    "Referência visual XLSX original indisponível; fidelidade visual não verificada.",
+    "XLSX gerado com dados transcritos do consolidado auditado, sem índice oficial.",
+    "Validação estrutural ZIP realizada; inspeção visual em Excel não realizada.",
+    "Publicação binária no GitHub ainda não confirmada."
+  ]
+}

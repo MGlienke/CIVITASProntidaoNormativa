@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_VALIDACAO_INTEGRACAO_HTML",
+  "contrato": "v0.4",
+  "template": "v0.3",
+  "avaliacao": "3509502-001",
+  "data": "2026-10-28",
+  "estado": "INTEGRACAO_ESTRUTURAL_APROVADA_TESTE_NAVEGADOR_PENDENTE",
+  "fontes": {
+    "template": {
+      "caminho": "painel/v0.3/template.html",
+      "git_blob_sha": "0cfd6ce1797b23e17340fd86e186801e2bba0e27",
+      "recuperacao": "SUCESSO_VIA_GIT_BLOB"
+    },
+    "contrato": {
+      "caminho": "painel/v0.4/contrato-dados.json",
+      "git_blob_sha": "9f0e9c8e8140508e200d1be7551ba3181c0ddd3f"
+    },
+    "consolidacao": {
+      "caminho": "avaliacoes/3509502-001/04-consolidacoes/consolidacao-v001.json",
+      "git_blob_sha": "a33c716ce0fd8dae214f31987864691f36587bbc"
+    },
+    "prototipo": {
+      "caminho": "avaliacoes/3509502-001/06-paineis/painel-v001-prototipo.html",
+      "git_blob_sha": "a8a5d6ac54b09bda6865a9cdfa166daef8be7b38"
+    }
+  },
+  "testes": {
+    "recuperacao_integral_template": "APROVADO",
+    "preservacao_css_logo_radar_tabela": "APROVADO_ESTATICAMENTE",
+    "json_embutido_e_seguro": "APROVADO_ESTATICAMENTE",
+    "dez_dimensoes": "APROVADO",
+    "indice_nulo_preservado": "APROVADO",
+    "nv_na_derivado_apenas_visualizacao": "APROVADO",
+    "banner_prototipo_parcial": "APROVADO",
+    "ausencia_de_urls_externas": "APROVADO_ESTATICAMENTE",
+    "html_git_publicado_e_relido": "APROVADO",
+    "javascript_em_navegador": "NAO_EXECUTADO",
+    "inspecao_dom": "NAO_EXECUTADO",
+    "radar_visual": "NAO_EXECUTADO",
+    "layout_desktop": "NAO_EXECUTADO",
+    "responsividade": "NAO_EXECUTADO",
+    "impressao_a3": "NAO_EXECUTADO",
+    "offline_em_navegador": "NAO_EXECUTADO",
+    "importacao_exportacao_json": "NAO_EXECUTADO",
+    "comparacao_visual_template": "NAO_EXECUTADO"
+  },
+  "achados": [
+    {
+      "codigo": "INCOMPATIBILIDADE_NV_NA",
+      "estado": "SANEADO_NO_ADAPTADOR",
+      "descricao": "Template v0.3 consome dimensoes[i].nv_na, enquanto a consolidação fornece na e nv separados; protótipo soma apenas no campo visual e preserva ambos."
+    },
+    {
+      "codigo": "ESTADO_PARCIAL",
+      "estado": "TRATADO_NO_PROTOTIPO",
+      "descricao": "Banner explícito e nota metodológica indicam protótipo não homologado e 10/115 quesitos."
+    },
+    {
+      "codigo": "HOMOLOGACAO_VISUAL",
+      "estado": "PENDENTE",
+      "descricao": "Sem execução em navegador, não comprovar layout, DOM, responsividade, impressão e radar."
+    }
+  ],
+  "ressalvas": [
+    "Template HTML v0.3 não modificado; protótipo é derivado e identificado como não homologado.",
+    "A ausência de URLs externas foi verificada por inspeção estática; abertura offline não foi testada.",
+    "O radar não deve mostrar polígono de desempenho com dez índices nulos; comportamento visual ainda não observado em navegador.",
+    "O template usa faixas de cor provisórias e a homologação visual depende de decisão metodológica."
+  ],
+  "conclusao": "Integração estática concluída; homologação do contrato e Etapa D permanecem pendentes de testes em navegador real."
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-001",
+  "id_quesito": "PN-02.01",
+  "dimensao": "D02",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Campinas",
+    "identificador": "3509502",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "1 — Fundamento das competências",
+    "enunciado": "É possível identificar as normas que estabelecem as competências da Entidade Pública?",
+    "objetivo": "Verificar documentalmente se é possível identificar as normas que estabelecem as competências da Entidade Pública, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+    "fundamentacao_conceitual": "Entidade Pública; Órgão Público; Competência; Atribuição; Agente Público; Norma Jurídica",
+    "relacoes_semanticas": "ENTIDADE PÚBLICA → possui → COMPETÊNCIA; ÓRGÃO PÚBLICO → exerce → COMPETÊNCIA",
+    "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+    "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+    "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+    "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+    "situacao_metodologica": "Critérios herdados do instrumento v5",
+    "criterios": {
+      "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+      "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+      "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+    }
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+        "documento": "LC 255/2020 e estrutura da PGM",
+        "dispositivo": "Funções institucionais da PGM",
+        "url": "https://www.campinas.sp.gov.br/secretaria/procuradoria-geral-do-municipio/estrutura",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "VERIFICACAO_PARCIAL",
+        "conteudo_examinado": "Lei Orgânica art. 75 e estrutura de secretarias evidenciam competências, mas não foi reconciliado o conjunto de normas vigentes de todas as unidades da Administração Direta.",
+        "evidencia": "Competências setoriais identificadas, sem inventário completo e atualizado de competências da Prefeitura."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+      "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "Competências setoriais identificadas, sem inventário completo e atualizado de competências da Prefeitura.",
+    "achado": "Lei Orgânica art. 75 e estrutura de secretarias evidenciam competências, mas não foi reconciliado o conjunto de normas vigentes de todas as unidades da Administração Direta.",
+    "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Lei Orgânica art. 75 e estrutura de secretarias evidenciam competências, mas não foi reconciliado o conjunto de normas vigentes de todas as unidades da Administração Direta.",
+    "acao_preparacao": "Consolidar mapa de competências por secretaria e seus fundamentos vigentes.",
+    "recomendacao_institucional": "Consolidar mapa de competências por secretaria e seus fundamentos vigentes.",
+    "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+  },
+  "resultado": {
+    "classificacao": "PARCIALMENTE_ATENDIDO",
+    "pontos": 1,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+  },
+  "auditoria": {
+    "estado": "CONCLUIDO_COM_RESSALVAS",
+    "verificacoes": [
+      "ID e dimensão conferidos com Método JSON",
+      "Critérios 0/1/2 transcritos literalmente",
+      "Fonte institucional identificada e URL registrada",
+      "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+    ],
+    "ressalvas": [
+      "Amostragem e verificação normativa parcial",
+      "Não homologação integral do Método"
+    ]
+  }
+}

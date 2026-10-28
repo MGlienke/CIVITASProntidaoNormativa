@@ -1,0 +1,1126 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_VALIDACAO_SEMANTICA_CONTRATO_HTML",
+  "versao_contrato": "v0.4",
+  "avaliacao": "3509502-001",
+  "consolidacao": "v001",
+  "data": "2026-10-28",
+  "fontes": {
+    "contrato": {
+      "caminho": "painel/v0.4/contrato-dados.json",
+      "git_blob_sha": "9f0e9c8e8140508e200d1be7551ba3181c0ddd3f"
+    },
+    "consolidacao": {
+      "caminho": "avaliacoes/3509502-001/04-consolidacoes/consolidacao-v001.json",
+      "git_blob_sha": "a33c716ce0fd8dae214f31987864691f36587bbc"
+    },
+    "metodo": {
+      "caminho": "metodo/v1/metodo.json",
+      "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b"
+    }
+  },
+  "estado": "MAPEAMENTO_SEMANTICO_VALIDADO_COM_RESSALVAS",
+  "resultado": {
+    "aprovados": 181,
+    "falhas": 0,
+    "campos_mapeados": 18,
+    "dimensoes": 10
+  },
+  "verificacoes": [
+    {
+      "teste": "campo.entidade.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.entidade",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.entidade.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado string, null=false; obtido string",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.municipio.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.municipio",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.municipio.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado string, null=false; obtido string",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.cnpj.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.cnpj",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.cnpj.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado string, null=true; obtido string",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.data.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.data",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.data.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado string, null=false; obtido string",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.instrumento.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.instrumento",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.instrumento.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado string, null=false; obtido string",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.total.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.total",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.total.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.indice_geral.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.indice_geral",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.indice_geral.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado number, null=true; obtido null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.aplicados.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.aplicados",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.aplicados.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=true; obtido null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.atendido.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.atendido",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.atendido.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.parcial.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.parcial",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.parcial.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.nao_atendido.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.nao_atendido",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.nao_atendido.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.na.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.na",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.na.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.nv.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.nv",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.nv.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.pendentes.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.pendentes",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.pendentes.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado integer, null=false; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.dimensoes.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.dimensoes",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.dimensoes.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado array, null=false; obtido array",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.sintese.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.sintese",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.sintese.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado object, null=false; obtido object",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.nota.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.painel.nota",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.nota.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado string, null=true; obtido string",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.cobertura_percentual.origem",
+      "resultado": "APROVADO",
+      "detalhe": "resultados.global.cobertura_percentual",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campo.cobertura_percentual.tipo",
+      "resultado": "APROVADO",
+      "detalhe": "tipo esperado number, null=true; obtido number",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "campos.quantidade",
+      "resultado": "APROVADO",
+      "detalhe": "18/18",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.quantidade",
+      "resultado": "APROVADO",
+      "detalhe": "10 dimensões",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.ordem",
+      "resultado": "APROVADO",
+      "detalhe": "PN-01,PN-02,PN-03,PN-04,PN-05,PN-06,PN-07,PN-08,PN-09,PN-10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.metodo",
+      "resultado": "APROVADO",
+      "detalhe": "Código e nome contra Método v1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-01\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"01 — Constituição e Organização Institucional\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 11, soma 11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-01.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-02\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"02 — Competências e Responsabilidades\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=13",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 13, soma 13",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-02.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-03\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"03 — Funções e Serviços Públicos\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 11, soma 11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-03.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-04\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"04 — Relações e Participações Institucionais\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 12, soma 12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-04.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-05\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"05 — Processo e Ato Administrativo\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 11, soma 11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-05.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-06\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"06 — Informação, Documentos e Evidências\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 12, soma 12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-06.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-07\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"07 — Realização Digital da Atuação\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 11, soma 11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-07.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-08\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"08 — Interinstitucionalidade e Interoperabilidade\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 12, soma 12",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-08.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-09\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"09 — Governança, Segurança e Responsabilização\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 11, soma 11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-09.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.codigo",
+      "resultado": "APROVADO",
+      "detalhe": "codigo=\"PN-10\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.nome",
+      "resultado": "APROVADO",
+      "detalhe": "nome=\"10 — Historicidade e Gestão do Arcabouço Normativo\"",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.total",
+      "resultado": "APROVADO",
+      "detalhe": "total=11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "parcial=1",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "nao_atendido=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.na",
+      "resultado": "APROVADO",
+      "detalhe": "na=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.nv",
+      "resultado": "APROVADO",
+      "detalhe": "nv=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "pendentes=10",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.indice",
+      "resultado": "APROVADO",
+      "detalhe": "indice=null",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.reconciliacao",
+      "resultado": "APROVADO",
+      "detalhe": "total 11, soma 11",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.PN-10.indice",
+      "resultado": "APROVADO",
+      "detalhe": "índice null preservado",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.total",
+      "resultado": "APROVADO",
+      "detalhe": "115=115",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "4=4",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.soma.atendido",
+      "resultado": "APROVADO",
+      "detalhe": "soma 4 = 4",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "6=6",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.soma.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "soma 6 = 6",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "0=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.soma.nao_atendido",
+      "resultado": "APROVADO",
+      "detalhe": "soma 0 = 0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.na",
+      "resultado": "APROVADO",
+      "detalhe": "0=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.soma.na",
+      "resultado": "APROVADO",
+      "detalhe": "soma 0 = 0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.nv",
+      "resultado": "APROVADO",
+      "detalhe": "0=0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.soma.nv",
+      "resultado": "APROVADO",
+      "detalhe": "soma 0 = 0",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "105=105",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "dimensoes.soma.pendentes",
+      "resultado": "APROVADO",
+      "detalhe": "soma 105 = 105",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.cobertura",
+      "resultado": "APROVADO",
+      "detalhe": "8.695652173913043%",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.indice_null",
+      "resultado": "APROVADO",
+      "detalhe": "Sem índice oficial",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.aplicados_null",
+      "resultado": "APROVADO",
+      "detalhe": "Sem dedução de aplicados",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.ausentes",
+      "resultado": "APROVADO",
+      "detalhe": "105 ausentes e 10 válidos com ressalvas",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "global.pontuacao",
+      "resultado": "APROVADO",
+      "detalhe": "14/20, sem converter em índice",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "sintese.chaves",
+      "resultado": "APROVADO",
+      "detalhe": "4 listas presentes",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "metodo.inventario",
+      "resultado": "APROVADO",
+      "detalhe": "115 IDs coincidem com Método",
+      "severidade": "INFORMATIVO"
+    },
+    {
+      "teste": "estado.parcial",
+      "resultado": "APROVADO",
+      "detalhe": "Painel final bloqueado",
+      "severidade": "INFORMATIVO"
+    }
+  ],
+  "problemas": [],
+  "ressalvas": [
+    "Validação contra uma única consolidação parcial; não comprova todos os estados possíveis.",
+    "Regra de reconciliação dimensional não cobre futuras categorias além das seis atuais.",
+    "Compatibilidade com HTML v0.3, radar, CSS e JS não testada; Etapa C pendente.",
+    "Contrato v0.4 não homologado para produção; faixas visuais e índices oficiais pendentes.",
+    "Aplicados permanece null, conforme a consolidação."
+  ],
+  "decisao": "Validação do mapeamento no cenário Campinas; homologação integral não concedida."
+}

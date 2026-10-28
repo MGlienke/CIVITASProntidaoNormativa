@@ -1,0 +1,440 @@
+{
+  "schema_version": "1.1",
+  "tipo_artefato": "CIVITAS_CONTRATO_DADOS_HTML",
+  "versao_contrato": "v0.4",
+  "estado": "PROPOSTO_PENDENTE_VALIDACAO",
+  "template_alvo": {
+    "versao": "v0.3",
+    "caminho": "painel/v0.3/template.html",
+    "git_blob_sha": "0cfd6ce1797b23e17340fd86e186801e2bba0e27",
+    "compatibilidade_runtime": "NAO_TESTADA"
+  },
+  "origem": {
+    "contrato_anterior": "painel/v0.3/contrato-dados.json",
+    "git_blob_sha": "a79d5410d7065674412325292a9ce41bc9bb0597",
+    "consolidacao_teste": "avaliacoes/3509502-001/04-consolidacoes/consolidacao-v001.json",
+    "consolidacao_git_blob_sha": "a33c716ce0fd8dae214f31987864691f36587bbc",
+    "dados_teste": "avaliacoes/3509502-001/06-paineis/painel-v001-dados.json",
+    "dados_git_blob_sha": "14a9808f26644aab984b6a6fed668b6abcca2271"
+  },
+  "entrada": "Consolidação versionada e auditada do Prompt 03, nunca XLSX",
+  "campos": {
+    "entidade": {
+      "significado": "Identificação da entidade",
+      "origem_exata_consolidacao": "resultados.painel.entidade",
+      "tipo": "string",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": "Prefeitura Municipal de Campinas"
+    },
+    "municipio": {
+      "significado": "Município e UF",
+      "origem_exata_consolidacao": "resultados.painel.municipio",
+      "tipo": "string",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": "Campinas – SP"
+    },
+    "cnpj": {
+      "significado": "CNPJ quando aplicável",
+      "origem_exata_consolidacao": "resultados.painel.cnpj",
+      "tipo": "string",
+      "obrigatorio": true,
+      "permite_null": true,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": "51.885.242/0001-40"
+    },
+    "data": {
+      "significado": "Data de referência",
+      "origem_exata_consolidacao": "resultados.painel.data",
+      "tipo": "string",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": "2026-10-28"
+    },
+    "instrumento": {
+      "significado": "Identificação do Método",
+      "origem_exata_consolidacao": "resultados.painel.instrumento",
+      "tipo": "string",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": "CIVITAS Prontidão Normativa — Método v1"
+    },
+    "total": {
+      "significado": "Quesitos previstos",
+      "origem_exata_consolidacao": "resultados.painel.total",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 115
+    },
+    "indice_geral": {
+      "significado": "Índice global consolidado",
+      "origem_exata_consolidacao": "resultados.painel.indice_geral",
+      "tipo": "number",
+      "obrigatorio": true,
+      "permite_null": true,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": null
+    },
+    "aplicados": {
+      "significado": "Quesitos aplicados",
+      "origem_exata_consolidacao": "resultados.painel.aplicados",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": true,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": null
+    },
+    "atendido": {
+      "significado": "Contagem atendidos",
+      "origem_exata_consolidacao": "resultados.painel.atendido",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 4
+    },
+    "parcial": {
+      "significado": "Contagem parciais",
+      "origem_exata_consolidacao": "resultados.painel.parcial",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 6
+    },
+    "nao_atendido": {
+      "significado": "Contagem não atendidos",
+      "origem_exata_consolidacao": "resultados.painel.nao_atendido",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 0
+    },
+    "na": {
+      "significado": "Contagem não aplicáveis",
+      "origem_exata_consolidacao": "resultados.painel.na",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 0
+    },
+    "nv": {
+      "significado": "Contagem não verificáveis",
+      "origem_exata_consolidacao": "resultados.painel.nv",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 0
+    },
+    "pendentes": {
+      "significado": "Pendências",
+      "origem_exata_consolidacao": "resultados.painel.pendentes",
+      "tipo": "integer",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 105
+    },
+    "dimensoes": {
+      "significado": "Dez dimensões na ordem canônica",
+      "origem_exata_consolidacao": "resultados.painel.dimensoes",
+      "tipo": "array",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": [
+        {
+          "codigo": "PN-01",
+          "nome": "01 — Constituição e Organização Institucional",
+          "total": 11,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-02",
+          "nome": "02 — Competências e Responsabilidades",
+          "total": 13,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 12,
+          "indice": null
+        },
+        {
+          "codigo": "PN-03",
+          "nome": "03 — Funções e Serviços Públicos",
+          "total": 11,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-04",
+          "nome": "04 — Relações e Participações Institucionais",
+          "total": 12,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 11,
+          "indice": null
+        },
+        {
+          "codigo": "PN-05",
+          "nome": "05 — Processo e Ato Administrativo",
+          "total": 11,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-06",
+          "nome": "06 — Informação, Documentos e Evidências",
+          "total": 12,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 11,
+          "indice": null
+        },
+        {
+          "codigo": "PN-07",
+          "nome": "07 — Realização Digital da Atuação",
+          "total": 11,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-08",
+          "nome": "08 — Interinstitucionalidade e Interoperabilidade",
+          "total": 12,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 11,
+          "indice": null
+        },
+        {
+          "codigo": "PN-09",
+          "nome": "09 — Governança, Segurança e Responsabilização",
+          "total": 11,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-10",
+          "nome": "10 — Historicidade e Gestão do Arcabouço Normativo",
+          "total": 11,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        }
+      ]
+    },
+    "sintese": {
+      "significado": "Quatro sínteses textuais",
+      "origem_exata_consolidacao": "resultados.painel.sintese",
+      "tipo": "object",
+      "obrigatorio": true,
+      "permite_null": false,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": {
+        "fortes": [],
+        "atencao": [],
+        "lacunas": [],
+        "recomendacoes": []
+      }
+    },
+    "nota": {
+      "significado": "Nota metodológica",
+      "origem_exata_consolidacao": "resultados.painel.nota",
+      "tipo": "string",
+      "obrigatorio": true,
+      "permite_null": true,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": "Consolidação parcial: 10 registros válidos com ressalvas de 115 quesitos (8.70%); 105 ausentes. Índices oficiais não publicados por ausência de homologação das fórmulas. Contrato HTML pendente."
+    },
+    "cobertura_percentual": {
+      "significado": "Percentual de cobertura do universo previsto",
+      "origem_exata_consolidacao": "resultados.global.cobertura_percentual",
+      "tipo": "number",
+      "obrigatorio": true,
+      "permite_null": true,
+      "regra_transformacao": "COPIA_SEM_RECALCULO",
+      "estado_mapeamento": "DEFINIDO_PENDENTE_TESTES",
+      "exemplo_campinas": 8.695652173913043
+    }
+  },
+  "dimensoes": {
+    "quantidade_exata": 10,
+    "ordem": [
+      "PN-01",
+      "PN-02",
+      "PN-03",
+      "PN-04",
+      "PN-05",
+      "PN-06",
+      "PN-07",
+      "PN-08",
+      "PN-09",
+      "PN-10"
+    ],
+    "campos": {
+      "codigo": {
+        "tipo": "string",
+        "origem": "resultados.painel.dimensoes[i].codigo",
+        "regra": "PN-01…PN-10, ordem fixa"
+      },
+      "nome": {
+        "tipo": "string",
+        "origem": "resultados.painel.dimensoes[i].nome"
+      },
+      "total": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].total"
+      },
+      "atendido": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].atendido"
+      },
+      "parcial": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].parcial"
+      },
+      "nao_atendido": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].nao_atendido"
+      },
+      "na": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].na"
+      },
+      "nv": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].nv"
+      },
+      "pendentes": {
+        "tipo": "integer",
+        "origem": "resultados.painel.dimensoes[i].pendentes"
+      },
+      "indice": {
+        "tipo": "number|null",
+        "origem": "resultados.painel.dimensoes[i].indice",
+        "regra": "null é S/I, jamais zero"
+      },
+      "nv_na": {
+        "tipo": "integer",
+        "origem": "na + nv",
+        "regra": "APENAS_CAMPO_DERIVADO_DE_APRESENTACAO, preservar campos originais na e nv"
+      }
+    },
+    "consistencia": "total = atendido + parcial + nao_atendido + na + nv + pendentes; se outras categorias surgirem, revisar contrato e não ajustar silenciosamente",
+    "indice_nulo": "S/I, não gerar polígono radar nem valor zero"
+  },
+  "sintese": {
+    "origem": "resultados.painel.sintese",
+    "chaves": [
+      "fortes",
+      "atencao",
+      "lacunas",
+      "recomendacoes"
+    ],
+    "tipo_valor": "array de string",
+    "ausencia": "Array vazio significa sem síntese fundamentada; não gerar texto automaticamente"
+  },
+  "regras_semanticas": {
+    "parcialidade": "estado PARCIAL deve ser exibido, independentemente de cobertura",
+    "indice": "Não calcular índice ou qualificação no adaptador ou HTML; copiar null quando indisponível",
+    "cobertura": "Percentual 0 a 100 já consolidado; formatação visual com arredondamento sem alterar valor",
+    "aplicados": "null preservado; não deduzir total-na-nv",
+    "pendentes": "Ausentes ou pendentes de avaliação não são Não atendidos nem Não verificáveis",
+    "radar": "Polígono somente com dez índices numéricos; índices nulos exibidos S/I",
+    "identidade": "Escopo e data devem ser exibidos a partir da consolidação e metadados, não inferidos",
+    "qualificacao": "Só exibir se presente e autorizada por Método homologado",
+    "faixas_visuais": "Provisórias na v0.3; homologação visual separada",
+    "seguranca": "Serialização JSON segura, escape de <, >, &, U+2028, U+2029 e conteúdo HTML como texto",
+    "fonte": "Cada campo preserva origem exata; sem preenchimento de lacunas"
+  },
+  "validacoes_exigidas": [
+    "Presença dos 18 campos e seus tipos",
+    "Dez dimensões canônicas na ordem do Método",
+    "Reconciliação de contagens globais e dimensionais",
+    "Distinção entre zero e null",
+    "Cenário parcial Campinas: 10 avaliados e 105 ausentes",
+    "Cenário sintético integral com dez índices numéricos e radar",
+    "Teste JS/DOM e offline do template v0.3",
+    "Teste visual desktop, responsividade e A3",
+    "Conferência com XLSX do mesmo snapshot quando disponível"
+  ],
+  "homologacao": {
+    "contrato_semantico": "PENDENTE_ETAPA_B",
+    "compatibilidade_html": "PENDENTE_ETAPA_C",
+    "estado_final": "NAO_HOMOLOGADO",
+    "criterio": "100% campos obrigatórios mapeados e validados, sem erros bloqueantes; integração HTML comprovada"
+  },
+  "historico": {
+    "substitui": "v0.3 somente após homologação",
+    "observacao": "v0.3 permanece ativa; v0.4 não altera resultados nem template"
+  }
+}

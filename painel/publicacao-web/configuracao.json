@@ -3,11 +3,11 @@
   "tipo_artefato": "CIVITAS_CONFIGURACAO_PUBLICACAO_WEB",
   "provedor": "GITHUB_PAGES",
   "repositorio": "MGlienke/CIVITASProntidaoNormativa",
-  "estado": "PENDENTE_VERIFICACAO_E_CONFIGURACAO",
-  "origem": null,
-  "branch": null,
-  "diretorio": null,
-  "base_url": null,
+  "estado": "CONFIGURACAO_INFORMADA_PELO_USUARIO_VALIDACAO_EXTERNA_PENDENTE",
+  "origem": "Deploy from a branch (informado pelo usuário, não verificado por API)",
+  "branch": "main (informado pelo usuário)",
+  "diretorio": "/(root) (informado pelo usuário)",
+  "base_url": "https://mglienke.github.io/CIVITASProntidaoNormativa/",
   "dominio_personalizado": null,
   "implantacao_verificada": false,
   "renderizacao_verificada": false,
@@ -19,5 +19,15 @@
     "offline": "HTML_AUTOCONTIDO"
   },
   "instrucao": "No GitHub: Settings > Pages > Build and deployment; selecionar origem, branch main e /(root) se compatível com política do repositório. Verificar a URL real exibida pelo GitHub.",
-  "observacao": "A conexão GitHub disponível não permite verificar nem configurar a API Pages; não presumir URL ativa."
+  "observacao": "A conexão GitHub disponível não permite verificar nem configurar a API Pages; não presumir URL ativa.",
+  "url_teste": "https://mglienke.github.io/CIVITASProntidaoNormativa/avaliacoes/3509502-001/06-paineis/painel-v001-prototipo.html",
+  "ultima_verificacao": {
+    "data": "2026-10-28",
+    "arquivo_git_blob_sha": "a8a5d6ac54b09bda6865a9cdfa166daef8be7b38",
+    "arquivo_repositorio": "CONFIRMADO",
+    "acesso_web": "INDETERMINADO_FALHA_CONECTIVIDADE_AMBIENTE",
+    "http_status": null,
+    "content_type": null,
+    "teste_navegador": "NAO_EXECUTADO"
+  }
 }

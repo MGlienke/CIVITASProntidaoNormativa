@@ -81,51 +81,51 @@
     "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
     "estado_publicacao": "PUBLICADO_COM_RESSALVAS"
   },
-  "fase_atual": "AVALIACAO",
-  "estado": "PREPARACAO_CONFIRMADA_AGUARDANDO_AVALIACAO",
+  "fase_atual": "CONSOLIDACAO",
+  "estado": "AMOSTRA_TRANSVERSAL_CONCLUIDA_COM_RESSALVAS",
   "progresso_por_dimensao": {
     "D01": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D02": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D03": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D04": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D05": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D06": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D07": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D08": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D09": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     },
     "D10": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "AMOSTRA_AVALIADA_NAO_DIMENSAO_CONCLUIDA"
     }
   },
-  "proximo_quesito": "PN-01.01",
+  "proximo_quesito": null,
   "artefatos_e_shas": {
     "01-ambiente.json": "a6efb4e1558fd4358aebefa076f9ef43976f3cf9",
     "02-entidade.json": "742e6637caf5ab90ddd03ff6063687b6934b68a9"
@@ -141,7 +141,29 @@
       "data": "2026-10-28",
       "tipo": "PREPARACAO_PERSISTIDA",
       "descricao": "Preparacao da Prefeitura Municipal de Campinas concluida; 115 quesitos, 10 dimensoes, sem resultados individuais ainda."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "AMOSTRA_TRANSVERSAL_PERSISTIDA",
+      "descricao": "Dez quesitos PN-01.01 a PN-10.01 gravados e relidos; cada dimensão permanece incompleta; classificações preliminares com ressalvas."
     }
   ],
-  "atualizado_em": "2026-10-28"
+  "atualizado_em": "2026-10-28",
+  "quesitos_amostra": [
+    "PN-01.01",
+    "PN-02.01",
+    "PN-03.01",
+    "PN-04.01",
+    "PN-05.01",
+    "PN-06.01",
+    "PN-07.01",
+    "PN-08.01",
+    "PN-09.01",
+    "PN-10.01"
+  ],
+  "cobertura_amostra": {
+    "quesitos_avaliados": 10,
+    "quesitos_previstos": 115,
+    "percentual": 8.695652173913043
+  }
 }

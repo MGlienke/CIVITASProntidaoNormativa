@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "id_avaliacao": "3509502-003",
+  "entidade": "Prefeitura Municipal de Campinas",
+  "coordenador_versao": "v1.4",
+  "tipo": "AVALIACAO_INTEGRAL_INDEPENDENTE",
+  "registro_versoes": {
+    "caminho": "controle/registro-versoes.json",
+    "git_blob_sha": "3199bca33c0838297273d24fc4b7ad970e7c84cb",
+    "consultado_em": "2026-10-28"
+  },
+  "snapshot_componentes": {
+    "coordenador": {
+      "versao": "v1.4",
+      "caminho": "prompts/coordenador-civitas-v1.4.md",
+      "git_blob_sha": "e30137f825c89bc58fd1879df747289a18ed59f2"
+    },
+    "prompt_0_metodo": {
+      "versao": "v1.0",
+      "caminho": "prompts/prompt-0-publicacao-metodo-v1.0.md",
+      "git_blob_sha": "705fcc87fe996193bcca2239112fdf212d81e71c"
+    },
+    "prompt_0_html": {
+      "versao": "v1.1",
+      "caminho": "prompts/prompt-0-html-painel-v1.1.md",
+      "git_blob_sha": "7b7a6fffb64517de4a7fa9e043e1b29629176fdf"
+    },
+    "prompt_1": {
+      "versao": "v2.2",
+      "caminho": "prompts/prompt-1-preparacao-identificacao-v2.2.md",
+      "git_blob_sha": "79ab1a90da84cb16ec1743563c8afd0658eb3b42"
+    },
+    "prompt_2": {
+      "versao": "v2.2",
+      "caminho": "prompts/prompt-2-avaliacao-individual-v2.2.md",
+      "git_blob_sha": "0ea9591c214863be51c2de07e21bbe3352ef9b15"
+    },
+    "prompt_3": {
+      "versao": "v1.1",
+      "caminho": "prompts/prompt-3-consolidacao-auditoria-v1.1.md",
+      "git_blob_sha": "9af9686d07b52bd50b6fe0d6399f0a3278f601e0"
+    },
+    "prompt_4": {
+      "versao": "v1.0",
+      "caminho": "prompts/prompt-4-geracao-planilha-v1.0.md",
+      "git_blob_sha": "6e3b648deddee144d353e9baf69945169ef8136e"
+    },
+    "prompt_5": {
+      "versao": "v1.1",
+      "caminho": "prompts/prompt-5-geracao-painel-html-v1.1.md",
+      "git_blob_sha": "70228fca0db596dee70ca695db00dc44137da929"
+    },
+    "metodo": {
+      "versao": "v1",
+      "caminho": "metodo/v1/metodo.json",
+      "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b"
+    },
+    "validacao_metodo": {
+      "versao": "v1",
+      "caminho": "metodo/v1/validacao.json",
+      "git_blob_sha": "1fde868a0b0d7d9d8212c4dd664057d8d095662d"
+    },
+    "template_html": {
+      "versao": "v0.3",
+      "caminho": "painel/v0.3/template.html",
+      "git_blob_sha": "0cfd6ce1797b23e17340fd86e186801e2bba0e27"
+    },
+    "contrato_html": {
+      "versao": "v0.3",
+      "caminho": "painel/v0.3/contrato-dados.json",
+      "git_blob_sha": "a79d5410d7065674412325292a9ce41bc9bb0597"
+    },
+    "validacao_html": {
+      "versao": "v0.3",
+      "caminho": "painel/v0.3/validacao.json",
+      "git_blob_sha": "eed75e1b7442896fc0ac04538b5a343791a48eb7"
+    },
+    "configuracao_publicacao_web": {
+      "versao": "v1.0",
+      "caminho": "painel/publicacao-web/configuracao.json",
+      "git_blob_sha": "41e403a03d56acbad117379a7ce0eb131300fc42"
+    }
+  },
+  "metodo": {
+    "versao": "v1",
+    "caminho": "metodo/v1/metodo.json",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS"
+  },
+  "fase_atual": "AVALIACAO",
+  "estado": "PREPARADA_PARA_AVALIACAO_INTEGRAL",
+  "progresso_por_dimensao": {
+    "D01": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D02": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D03": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D04": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D05": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D06": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D07": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D08": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D09": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    },
+    "D10": {
+      "avaliados": 0,
+      "estado": "NAO_INICIADA"
+    }
+  },
+  "proximo_quesito": "PN-01.01",
+  "artefatos_e_shas": {},
+  "checkpoints": [],
+  "pendencias": [
+    "Método v1 com ressalvas",
+    "Template HTML v1.1 ainda não ativado no registro; painel fora do escopo até Prompt 3",
+    "Pesquisa dos 115 quesitos pendente"
+  ],
+  "historico_eventos": [
+    {
+      "data": "2026-10-28",
+      "tipo": "PREPARACAO_INDEPENDENTE",
+      "descricao": "Reinício solicitado; avaliação 3509502-003 sem herdar resultados; fluxo Coordenador v1.4 com auditoria concentrada no Prompt 3."
+    }
+  ],
+  "atualizado_em": "2026-10-28"
+}

@@ -91,8 +91,8 @@
   "estado": "PREPARADA_PARA_AVALIACAO_INTEGRAL",
   "progresso_por_dimensao": {
     "D01": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 8,
+      "estado": "EM_ANDAMENTO"
     },
     "D02": {
       "avaliados": 0,
@@ -131,7 +131,7 @@
       "estado": "NAO_INICIADA"
     }
   },
-  "proximo_quesito": "PN-01.01",
+  "proximo_quesito": "PN-01.09",
   "artefatos_e_shas": {},
   "checkpoints": [],
   "pendencias": [
@@ -144,6 +144,11 @@
       "data": "2026-10-28",
       "tipo": "PREPARACAO_INDEPENDENTE",
       "descricao": "Reinício solicitado; avaliação 3509502-003 sem herdar resultados; fluxo Coordenador v1.4 com auditoria concentrada no Prompt 3."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "COLETA_DIMENSAO_1",
+      "descricao": "Oito quesitos PN-01.01 a PN-01.08 persistidos; auditoria de mérito adiada para Prompt 3. Continuação PN-01.09."
     }
   ],
   "atualizado_em": "2026-10-28"

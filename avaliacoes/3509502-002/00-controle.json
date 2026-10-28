@@ -92,8 +92,8 @@
   "estado": "PREPARADA_PARA_AVALIACAO_INTEGRAL",
   "progresso_por_dimensao": {
     "D01": {
-      "avaliados": 0,
-      "estado": "NAO_INICIADA"
+      "avaliados": 1,
+      "estado": "EM_ANDAMENTO"
     },
     "D02": {
       "avaliados": 0,
@@ -132,8 +132,10 @@
       "estado": "NAO_INICIADA"
     }
   },
-  "proximo_quesito": "PN-01.01",
-  "artefatos_e_shas": {},
+  "proximo_quesito": "PN-01.02",
+  "artefatos_e_shas": {
+    "03-quesitos/D01/PN-01.01.json": "0998d3c1e07d894ead7cea1507620b337ad5ee8b"
+  },
   "checkpoints": [],
   "pendencias": [
     "Método v1 e fórmulas ainda com ressalvas",
@@ -145,6 +147,12 @@
       "data": "2026-10-28",
       "tipo": "NOVA_AVALIACAO_INTEGRAL",
       "descricao": "Nova avaliação independente da amostra 3509502-001; nenhum resultado de quesito herdado."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "QUESITO_PERSISTIDO",
+      "id_quesito": "PN-01.01",
+      "descricao": "Avaliação independente com fonte oficial e ressalvas; 1/115. Prompt 3 ainda não executado."
     }
   ],
   "atualizado_em": "2026-10-28"

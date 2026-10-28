@@ -3,7 +3,7 @@
   "tipo_artefato": "CIVITAS_CONFIGURACAO_PUBLICACAO_WEB",
   "provedor": "GITHUB_PAGES",
   "repositorio": "MGlienke/CIVITASProntidaoNormativa",
-  "estado": "CONFIGURACAO_INFORMADA_PELO_USUARIO_VALIDACAO_EXTERNA_PENDENTE",
+  "estado": "ACESSIBILIDADE_CONFIRMADA_PELO_USUARIO_TESTES_FUNCIONAIS_PENDENTES",
   "origem": "Deploy from a branch (informado pelo usuário, não verificado por API)",
   "branch": "main (informado pelo usuário)",
   "diretorio": "/(root) (informado pelo usuário)",
@@ -25,9 +25,13 @@
     "data": "2026-10-28",
     "arquivo_git_blob_sha": "a8a5d6ac54b09bda6865a9cdfa166daef8be7b38",
     "arquivo_repositorio": "CONFIRMADO",
-    "acesso_web": "INDETERMINADO_FALHA_CONECTIVIDADE_AMBIENTE",
+    "acesso_web": "CONFIRMADO_PELO_USUARIO",
     "http_status": null,
     "content_type": null,
-    "teste_navegador": "NAO_EXECUTADO"
+    "teste_navegador": "ABERTURA_CONFIRMADA_PELO_USUARIO",
+    "teste_dom": "NAO_EXECUTADO",
+    "teste_radar": "NAO_EXECUTADO",
+    "teste_impressao_a3": "NAO_EXECUTADO",
+    "observacao": "Usuário confirmou que conseguiu visualizar o painel pelo link GitHub Pages. Não houve auditoria técnica independente de DOM, console, layout ou impressão."
   }
 }

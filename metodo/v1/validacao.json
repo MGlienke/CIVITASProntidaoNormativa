@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_VALIDACAO_METODO",
+  "versao_metodo": "v1",
+  "estado": "PUBLICADO_COM_RESSALVAS",
+  "arquivo_excel_sha256": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0",
+  "abas_lidas": [
+    "ID",
+    "METODO",
+    "AVALIACAO",
+    "RESULTADOS",
+    "PAINEL",
+    "LISTAS"
+  ],
+  "contagens": {
+    "dimensoes": 10,
+    "quesitos": 115,
+    "ids_duplicados": 0,
+    "formulas_identificadas": 102,
+    "ressalvas_metodologicas": 72
+  },
+  "auditoria_fidelidade": {
+    "comparacao_de_campos_em_memoria": "CONCLUIDA",
+    "json_roundtrip": "CONCLUIDO",
+    "formula_interpretacao": "NAO_HOMOLOGADA",
+    "estado": "FIDELIDADE_ESTRUTURAL_VERIFICADA"
+  },
+  "ressalvas": [
+    {
+      "id_quesito": "PN-02.12",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-02.12",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-02.12",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-02.12",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-02.13",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-02.13",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-02.13",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-02.13",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-03.10",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-03.10",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-03.10",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-03.10",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-03.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-03.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-03.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-03.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-04.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-04.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-04.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-04.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-04.12",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-04.12",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-04.12",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-04.12",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-05.10",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-05.10",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-05.10",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-05.10",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-05.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-05.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-05.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-05.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-06.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-06.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-06.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-06.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-06.12",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-06.12",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-06.12",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-06.12",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-07.10",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-07.10",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-07.10",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-07.10",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-07.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-07.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-07.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-07.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-08.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-08.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-08.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-08.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-08.12",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-08.12",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-08.12",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-08.12",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-09.10",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-09.10",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-09.10",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-09.10",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-09.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-09.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-09.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-09.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-10.10",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-10.10",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-10.10",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-10.10",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    },
+    {
+      "id_quesito": "PN-10.11",
+      "campo": "criterios.0",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-10.11",
+      "campo": "criterios.1",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-10.11",
+      "campo": "criterios.2",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Critério específico pendente de validação metodológica"
+    },
+    {
+      "id_quesito": "PN-10.11",
+      "campo": "situacao_metodologica",
+      "tipo": "RESSALVA_METODOLOGICA",
+      "valor_original": "Revisar objetivos/evidências/critérios após teste de campo"
+    }
+  ],
+  "problemas_bloqueantes": [],
+  "publicacao": {
+    "autorizada": true,
+    "motivo": "Publicação expressamente autorizada pelo usuário em 2026-10-28; testes metodológicos e do painel serão posteriores.",
+    "homologacao_metodologica": false
+  }
+}

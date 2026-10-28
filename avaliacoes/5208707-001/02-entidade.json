@@ -1,0 +1,82 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "5208707-001",
+  "estado": "IDENTIFICADA",
+  "nome_informado": "Prefeitura Municipal de Goiânia - GO",
+  "entidade_nome": "Prefeitura Municipal de Goiânia",
+  "entidade_sigla": "NÃO IDENTIFICADA",
+  "entidade_cnpj": "01.612.092/0001-23",
+  "municipio_uf": "Goiânia – GO",
+  "website_institucional": "https://www.goiania.go.gov.br/",
+  "identificadores": {
+    "ibge": "5208707",
+    "outros": []
+  },
+  "natureza_institucional": "Estrutura da Administração Direta do Poder Executivo do Município de Goiânia; Prefeitura não é pessoa jurídica distinta do Município",
+  "pessoa_juridica_responsavel": {
+    "nome": "Município de Goiânia",
+    "cnpj": "01.612.092/0001-23"
+  },
+  "escopo": {
+    "objeto": "Prefeitura Municipal de Goiânia",
+    "abrangencia": "Administração Direta do Poder Executivo municipal",
+    "exclusoes": [
+      "Administração Indireta, salvo redefinição expressa de escopo"
+    ]
+  },
+  "data_referencia": "2026-10-28",
+  "data_pesquisa": "2026-10-28",
+  "campos_verificados": {
+    "entidade_nome": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://www.goiania.go.gov.br/"
+    },
+    "entidade_sigla": {
+      "situacao": "NAO_IDENTIFICADO",
+      "fonte": null
+    },
+    "entidade_cnpj": {
+      "situacao": "VERIFICADO",
+      "titular": "Município de Goiânia",
+      "fonte": "https://www.goiania.go.gov.br/Download/legislacao/DiarioOficial/2025/do_20251113_000008663.pdf"
+    },
+    "municipio_uf": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://www.ibge.gov.br/cidades-e-estados/go/goiania"
+    },
+    "website_institucional": {
+      "situacao": "VERIFICADO",
+      "fonte": "https://www.goiania.go.gov.br/"
+    }
+  },
+  "fontes_institucionais": [
+    {
+      "tipo": "website",
+      "url": "https://www.goiania.go.gov.br/"
+    },
+    {
+      "tipo": "estrutura_organizacional",
+      "url": "https://www.goiania.go.gov.br/sing_transparencia/estrutura-organizacional/"
+    },
+    {
+      "tipo": "identificacao_IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/go/goiania"
+    }
+  ],
+  "repositorios_normativos": [
+    {
+      "tipo": "legislacao_municipal",
+      "url": "https://www.goiania.go.gov.br/casa-civil/legislacao-municipal/"
+    },
+    {
+      "tipo": "diario_oficial",
+      "url": "https://www.goiania.go.gov.br/casa-civil/diario-oficial/"
+    }
+  ],
+  "pendencias": [
+    "Confirmar se a Administração Indireta deverá integrar o escopo de uma futura avaliação ampliada"
+  ],
+  "limitacoes": [
+    "Nesta etapa não foi realizada avaliação de quesitos nem certificação de vigência de todo o acervo normativo"
+  ]
+}

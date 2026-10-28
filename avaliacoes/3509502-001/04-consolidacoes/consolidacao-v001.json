@@ -1,0 +1,2459 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_CONSOLIDACAO",
+  "id_avaliacao": "3509502-001",
+  "versao_consolidacao": 1,
+  "estado": "PARCIAL",
+  "data_consolidacao": "2026-10-28",
+  "contexto": {
+    "entidade": {
+      "schema_version": "2.0",
+      "id_avaliacao": "3509502-001",
+      "estado": "IDENTIFICADA",
+      "nome_informado": "Prefeitura Municipal de Campinas - SP",
+      "entidade_nome": "Prefeitura Municipal de Campinas",
+      "entidade_sigla": "PMC",
+      "entidade_cnpj": "51.885.242/0001-40",
+      "municipio_uf": "Campinas – SP",
+      "website_institucional": "https://www.campinas.sp.gov.br/",
+      "identificadores": {
+        "ibge": "3509502",
+        "outros": []
+      },
+      "natureza_institucional": "Prefeitura Municipal — estrutura executiva da Administração Direta do Município de Campinas; não constitui pessoa jurídica distinta do Município",
+      "pessoa_juridica_responsavel": {
+        "nome": "Município de Campinas",
+        "cnpj": "51.885.242/0001-40",
+        "observacao": "CNPJ divulgado pela Prefeitura para a sua identificação cadastral; não implica personalidade jurídica própria do órgão Prefeitura"
+      },
+      "escopo": {
+        "objeto": "Prefeitura Municipal de Campinas",
+        "abrangencia": "Administração Direta do Poder Executivo municipal",
+        "exclusoes": [
+          "Poder Legislativo municipal",
+          "Entidades da Administração Indireta, salvo evidências necessárias à compreensão da Administração Direta"
+        ]
+      },
+      "data_referencia": "2026-10-28",
+      "data_pesquisa": "2026-10-28",
+      "campos_verificados": {
+        "entidade_nome": {
+          "situacao": "VERIFICADO",
+          "fonte": "https://www.campinas.sp.gov.br/"
+        },
+        "entidade_cnpj": {
+          "situacao": "VERIFICADO",
+          "fonte": "https://portal-adm.campinas.sp.gov.br/node/137205"
+        },
+        "municipio_uf": {
+          "situacao": "VERIFICADO",
+          "fonte": "https://www.ibge.gov.br/explica/codigos-dos-municipios.php"
+        },
+        "identificador_ibge": {
+          "situacao": "VERIFICADO",
+          "fonte": "https://www.ibge.gov.br/en/cities-and-states/sp/campinas.html"
+        },
+        "entidade_sigla": {
+          "situacao": "PENDENTE",
+          "observacao": "Sigla PMC utilizada como abreviação operacional; confirmação de sigla formal pendente"
+        }
+      },
+      "fontes_institucionais": [
+        {
+          "campo": "entidade_nome",
+          "url": "https://www.campinas.sp.gov.br/",
+          "data_consulta": "2026-10-28"
+        },
+        {
+          "campo": "entidade_cnpj",
+          "url": "https://portal-adm.campinas.sp.gov.br/node/137205",
+          "data_consulta": "2026-10-28"
+        },
+        {
+          "campo": "municipio_uf",
+          "url": "https://www.ibge.gov.br/explica/codigos-dos-municipios.php",
+          "data_consulta": "2026-10-28"
+        },
+        {
+          "campo": "identificadores.ibge",
+          "url": "https://www.ibge.gov.br/en/cities-and-states/sp/campinas.html",
+          "data_consulta": "2026-10-28"
+        }
+      ],
+      "repositorios_normativos": [
+        {
+          "nome": "Biblioteca Jurídica Municipal",
+          "url": "https://campinas.sp.gov.br/bibliotecajuridica",
+          "fonte": "https://portal-adm.campinas.sp.gov.br/servico/acessar-legislacao-municipal"
+        },
+        {
+          "nome": "Diário Oficial do Município",
+          "url": "https://www.campinas.sp.gov.br/diario-oficial/",
+          "fonte": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1927351429370614293719273503.pdf"
+        }
+      ],
+      "pendencias": [
+        "Confirmar sigla oficial PMC, se aplicável",
+        "Confirmar detalhes de estrutura e legislação orgânica em cada quesito"
+      ],
+      "limitacoes": [
+        "A identificação institucional não constitui avaliação de mérito dos quesitos"
+      ]
+    },
+    "escopo": {
+      "objeto": "Prefeitura Municipal de Campinas",
+      "abrangencia": "Administração Direta do Poder Executivo municipal",
+      "exclusoes": [
+        "Poder Legislativo municipal",
+        "Entidades da Administração Indireta, salvo evidências necessárias à compreensão da Administração Direta"
+      ]
+    },
+    "data_referencia": "2026-10-28",
+    "metodo": {
+      "arquivo": "metodo/v1/metodo.json",
+      "versao": "v1",
+      "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+      "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0",
+      "estado_publicacao": "PUBLICADO_COM_RESSALVAS"
+    },
+    "arquivos_preparacao": [
+      {
+        "caminho": "avaliacoes/3509502-001/01-ambiente.json",
+        "git_blob_sha": "a6efb4e1558fd4358aebefa076f9ef43976f3cf9"
+      },
+      {
+        "caminho": "avaliacoes/3509502-001/02-entidade.json",
+        "git_blob_sha": "742e6637caf5ab90ddd03ff6063687b6934b68a9"
+      }
+    ],
+    "registro_versoes": {
+      "caminho": "controle/registro-versoes.json",
+      "git_blob_sha": "12f667f4896df46cd2c133d649e47e0c4fd323ca"
+    },
+    "prompt_3": {
+      "versao": "v1.1",
+      "git_blob_sha": "9af9686d07b52bd50b6fe0d6399f0a3278f601e0"
+    }
+  },
+  "inventario": {
+    "quesitos_previstos": 115,
+    "ids_previstos": [
+      "PN-01.01",
+      "PN-01.02",
+      "PN-01.03",
+      "PN-01.04",
+      "PN-01.05",
+      "PN-01.06",
+      "PN-01.07",
+      "PN-01.08",
+      "PN-01.09",
+      "PN-01.10",
+      "PN-01.11",
+      "PN-02.01",
+      "PN-02.02",
+      "PN-02.03",
+      "PN-02.04",
+      "PN-02.05",
+      "PN-02.06",
+      "PN-02.07",
+      "PN-02.08",
+      "PN-02.09",
+      "PN-02.10",
+      "PN-02.11",
+      "PN-02.12",
+      "PN-02.13",
+      "PN-03.01",
+      "PN-03.02",
+      "PN-03.03",
+      "PN-03.04",
+      "PN-03.05",
+      "PN-03.06",
+      "PN-03.07",
+      "PN-03.08",
+      "PN-03.09",
+      "PN-03.10",
+      "PN-03.11",
+      "PN-04.01",
+      "PN-04.02",
+      "PN-04.03",
+      "PN-04.04",
+      "PN-04.05",
+      "PN-04.06",
+      "PN-04.07",
+      "PN-04.08",
+      "PN-04.09",
+      "PN-04.10",
+      "PN-04.11",
+      "PN-04.12",
+      "PN-05.01",
+      "PN-05.02",
+      "PN-05.03",
+      "PN-05.04",
+      "PN-05.05",
+      "PN-05.06",
+      "PN-05.07",
+      "PN-05.08",
+      "PN-05.09",
+      "PN-05.10",
+      "PN-05.11",
+      "PN-06.01",
+      "PN-06.02",
+      "PN-06.03",
+      "PN-06.04",
+      "PN-06.05",
+      "PN-06.06",
+      "PN-06.07",
+      "PN-06.08",
+      "PN-06.09",
+      "PN-06.10",
+      "PN-06.11",
+      "PN-06.12",
+      "PN-07.01",
+      "PN-07.02",
+      "PN-07.03",
+      "PN-07.04",
+      "PN-07.05",
+      "PN-07.06",
+      "PN-07.07",
+      "PN-07.08",
+      "PN-07.09",
+      "PN-07.10",
+      "PN-07.11",
+      "PN-08.01",
+      "PN-08.02",
+      "PN-08.03",
+      "PN-08.04",
+      "PN-08.05",
+      "PN-08.06",
+      "PN-08.07",
+      "PN-08.08",
+      "PN-08.09",
+      "PN-08.10",
+      "PN-08.11",
+      "PN-08.12",
+      "PN-09.01",
+      "PN-09.02",
+      "PN-09.03",
+      "PN-09.04",
+      "PN-09.05",
+      "PN-09.06",
+      "PN-09.07",
+      "PN-09.08",
+      "PN-09.09",
+      "PN-09.10",
+      "PN-09.11",
+      "PN-10.01",
+      "PN-10.02",
+      "PN-10.03",
+      "PN-10.04",
+      "PN-10.05",
+      "PN-10.06",
+      "PN-10.07",
+      "PN-10.08",
+      "PN-10.09",
+      "PN-10.10",
+      "PN-10.11"
+    ],
+    "arquivos_extras": [],
+    "registros": [
+      {
+        "id_quesito": "PN-01.01",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "c3dbda36507234495a3df5217aca5a139a8127cb",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.02",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.03",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.04",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.05",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.06",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.07",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.08",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.09",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.10",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-01.11",
+        "dimensao": "D01",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.01",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "384ae06cdb11581766983a32ff299ad474074694",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.02",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.03",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.04",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.05",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.06",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.07",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.08",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.09",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.10",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.11",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.12",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.12.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-02.13",
+        "dimensao": "D02",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.13.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.01",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "e30035013b68eea04670b1e049bf6de901c2a6fe",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.02",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.03",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.04",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.05",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.06",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.07",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.08",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.09",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.10",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-03.11",
+        "dimensao": "D03",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.01",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "f643b6d61dc16c81d911bb76353c2b6005817912",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.02",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.03",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.04",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.05",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.06",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.07",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.08",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.09",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.10",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.11",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-04.12",
+        "dimensao": "D04",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.12.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.01",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "7869e513a92b6de9ba6b91a777b450c12efa4ed1",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.02",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.03",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.04",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.05",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.06",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.07",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.08",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.09",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.10",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-05.11",
+        "dimensao": "D05",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.01",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "d2135bf7fdeba2fc391d99574118a22c173af7a1",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.02",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.03",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.04",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.05",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.06",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.07",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.08",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.09",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.10",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.11",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-06.12",
+        "dimensao": "D06",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.12.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.01",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "afbcbeb642d4a934cd4319939aa176dcd4da09c2",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.02",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.03",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.04",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.05",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.06",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.07",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.08",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.09",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.10",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-07.11",
+        "dimensao": "D07",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.01",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "30e6fa8006c1125a8151baf22f46d132f44fb03b",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.02",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.03",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.04",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.05",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.06",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.07",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.08",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.09",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.10",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.11",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-08.12",
+        "dimensao": "D08",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.12.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.01",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "83fe877d5a172b81173a52e78b7a449813242dd9",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.02",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.03",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.04",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.05",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.06",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.07",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.08",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.09",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.10",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-09.11",
+        "dimensao": "D09",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.01",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.01.json",
+        "status": "VALIDO_COM_RESSALVAS",
+        "git_blob_sha": "12568c9176ffe163747f58ffaf4226675c540f93",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.02",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.02.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.03",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.03.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.04",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.04.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.05",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.05.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.06",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.06.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.07",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.07.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.08",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.08.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.09",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.09.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.10",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.10.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      },
+      {
+        "id_quesito": "PN-10.11",
+        "dimensao": "D10",
+        "caminho_esperado": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.11.json",
+        "status": "AUSENTE",
+        "git_blob_sha": null,
+        "problemas": []
+      }
+    ]
+  },
+  "resultados": {
+    "quesitos": [
+      {
+        "id_quesito": "PN-01.01",
+        "dimensao": "D01",
+        "bloco": "1 — Constituição jurídica",
+        "enunciado": "É possível identificar a norma que constitui ou fundamenta juridicamente a existência da Entidade Pública?",
+        "objetivo": "Verificar se a existência institucional da Entidade Pública pode ser juridicamente reconhecida a partir de norma vigente e identificável, permitindo determinar o fundamento de sua constituição no âmbito da Administração Pública.",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "resultado": {
+          "classificacao": "ATENDIDO",
+          "pontos": 2,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Constituição jurídica",
+          "enunciado": "É possível identificar a norma que constitui ou fundamenta juridicamente a existência da Entidade Pública?",
+          "objetivo": "Verificar se a existência institucional da Entidade Pública pode ser juridicamente reconhecida a partir de norma vigente e identificável, permitindo determinar o fundamento de sua constituição no âmbito da Administração Pública.",
+          "fundamentacao_conceitual": "Estado; Ente Federativo; Administração Pública; Entidade Pública; Norma Jurídica.",
+          "relacoes_semanticas": "Constituição → organiza juridicamente → Estado; Estado → organiza-se em → Ente Federativo; Ente Federativo → organiza-se por meio de → Administração Pública; Administração Pública → compreende → Entidade Pública.",
+          "fundamentacao_normativa_metodo": "Normas do Arcabouço Normativo de Referência que disciplinam a organização administrativa e a constituição/criação de Entidades Públicas. N060 — Lei Federal nº 14.600/2023 integra a referência para organização administrativa. Dispositivos e demais Normas de Referência serão vinculados na consolidação da Rede Semântica Normativa.",
+          "evidencias_esperadas": "Constituição e legislação de organização administrativa aplicável; lei ou outro instrumento normativo de criação/autorização de criação da entidade; legislação posterior de reorganização, transformação, fusão, sucessão ou alteração, quando existente.",
+          "objeto_evidenciado_metodo": "Existência jurídica da Entidade Pública e fundamento normativo de sua constituição na estrutura estatal.",
+          "regra_na": "Não aplicável não admitido, por se tratar de condição necessária à própria existência institucional da Entidade Pública objeto da avaliação.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Não foi possível identificar fundamento normativo suficiente para reconhecer juridicamente a existência da Entidade Pública.",
+            "1": "Foi identificado fundamento normativo para a existência da entidade, mas sua determinação depende de normas dispersas, desatualizadas, incompletas ou cuja vigência ou relação entre si não esteja suficientemente estabelecida.",
+            "2": "O fundamento normativo da existência da Entidade Pública está identificado, vigente e permite reconhecer de forma inequívoca sua constituição jurídica."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Lei Orgânica nº 1/1990",
+              "dispositivo": "Art. 75 e organização municipal",
+              "url": "https://sapl.campinas.sp.leg.br/norma/1",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei Orgânica do Município de Campinas (texto compilado até Emenda 55/2025) e atribuições do Prefeito no art. 75; fundamento jurídico municipal e Executivo identificáveis.",
+              "evidencia": "Lei Orgânica compilada identifica Município e atribuições do Executivo; Prefeitura não é pessoa jurídica separada."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Lei Orgânica compilada identifica Município e atribuições do Executivo; Prefeitura não é pessoa jurídica separada.",
+          "achado": "Lei Orgânica do Município de Campinas (texto compilado até Emenda 55/2025) e atribuições do Prefeito no art. 75; fundamento jurídico municipal e Executivo identificáveis.",
+          "justificativa": "Classificação ATENDIDO (2 ponto(s)) segundo o critério literal do Método. Lei Orgânica do Município de Campinas (texto compilado até Emenda 55/2025) e atribuições do Prefeito no art. 75; fundamento jurídico municipal e Executivo identificáveis.",
+          "acao_preparacao": "Confirmar atualidade do texto compilado e atos de organização do Executivo.",
+          "recomendacao_institucional": "Confirmar atualidade do texto compilado e atos de organização do Executivo.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.01.json",
+        "git_blob_sha_origem": "c3dbda36507234495a3df5217aca5a139a8127cb"
+      },
+      {
+        "id_quesito": "PN-02.01",
+        "dimensao": "D02",
+        "bloco": "1 — Fundamento das competências",
+        "enunciado": "É possível identificar as normas que estabelecem as competências da Entidade Pública?",
+        "objetivo": "Verificar documentalmente se é possível identificar as normas que estabelecem as competências da Entidade Pública, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "resultado": {
+          "classificacao": "PARCIALMENTE_ATENDIDO",
+          "pontos": 1,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Fundamento das competências",
+          "enunciado": "É possível identificar as normas que estabelecem as competências da Entidade Pública?",
+          "objetivo": "Verificar documentalmente se é possível identificar as normas que estabelecem as competências da Entidade Pública, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Entidade Pública; Órgão Público; Competência; Atribuição; Agente Público; Norma Jurídica",
+          "relacoes_semanticas": "ENTIDADE PÚBLICA → possui → COMPETÊNCIA; ÓRGÃO PÚBLICO → exerce → COMPETÊNCIA",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "LC 255/2020 e estrutura da PGM",
+              "dispositivo": "Funções institucionais da PGM",
+              "url": "https://www.campinas.sp.gov.br/secretaria/procuradoria-geral-do-municipio/estrutura",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei Orgânica art. 75 e estrutura de secretarias evidenciam competências, mas não foi reconciliado o conjunto de normas vigentes de todas as unidades da Administração Direta.",
+              "evidencia": "Competências setoriais identificadas, sem inventário completo e atualizado de competências da Prefeitura."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Competências setoriais identificadas, sem inventário completo e atualizado de competências da Prefeitura.",
+          "achado": "Lei Orgânica art. 75 e estrutura de secretarias evidenciam competências, mas não foi reconciliado o conjunto de normas vigentes de todas as unidades da Administração Direta.",
+          "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Lei Orgânica art. 75 e estrutura de secretarias evidenciam competências, mas não foi reconciliado o conjunto de normas vigentes de todas as unidades da Administração Direta.",
+          "acao_preparacao": "Consolidar mapa de competências por secretaria e seus fundamentos vigentes.",
+          "recomendacao_institucional": "Consolidar mapa de competências por secretaria e seus fundamentos vigentes.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.01.json",
+        "git_blob_sha_origem": "384ae06cdb11581766983a32ff299ad474074694"
+      },
+      {
+        "id_quesito": "PN-03.01",
+        "dimensao": "D03",
+        "bloco": "1 — Fundamentação das funções",
+        "enunciado": "As funções institucionais exercidas estão identificadas em normas vigentes?",
+        "objetivo": "Verificar documentalmente se as funções institucionais exercidas estão identificadas em normas vigentes, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "resultado": {
+          "classificacao": "PARCIALMENTE_ATENDIDO",
+          "pontos": 1,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Fundamentação das funções",
+          "enunciado": "As funções institucionais exercidas estão identificadas em normas vigentes?",
+          "objetivo": "Verificar documentalmente se as funções institucionais exercidas estão identificadas em normas vigentes, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Competência; Função Institucional; Serviço Público; Cidadão; Norma Jurídica",
+          "relacoes_semanticas": "ADMINISTRAÇÃO PÚBLICA → é titular de → SERVIÇO PÚBLICO",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "LC 255/2020",
+              "dispositivo": "Funções institucionais PGM",
+              "url": "https://www.campinas.sp.gov.br/secretaria/procuradoria-geral-do-municipio/estrutura",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Funções institucionais da Procuradoria-Geral e da Secretaria de Gestão e Controle identificadas, sem verificação de todas as funções da Administração Direta.",
+              "evidencia": "Funções de representação, consultoria e assessoramento jurídico identificadas em fonte institucional."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Funções de representação, consultoria e assessoramento jurídico identificadas em fonte institucional.",
+          "achado": "Funções institucionais da Procuradoria-Geral e da Secretaria de Gestão e Controle identificadas, sem verificação de todas as funções da Administração Direta.",
+          "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Funções institucionais da Procuradoria-Geral e da Secretaria de Gestão e Controle identificadas, sem verificação de todas as funções da Administração Direta.",
+          "acao_preparacao": "Mapear funções de todos os órgãos e validar normas vigentes.",
+          "recomendacao_institucional": "Mapear funções de todos os órgãos e validar normas vigentes.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.01.json",
+        "git_blob_sha_origem": "e30035013b68eea04670b1e049bf6de901c2a6fe"
+      },
+      {
+        "id_quesito": "PN-04.01",
+        "dimensao": "D04",
+        "bloco": "1 — Sujeitos e papéis",
+        "enunciado": "As normas identificam as categorias de Pessoas que participam das relações institucionais?",
+        "objetivo": "Verificar documentalmente se as normas identificam as categorias de Pessoas que participam das relações institucionais, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "resultado": {
+          "classificacao": "PARCIALMENTE_ATENDIDO",
+          "pontos": 1,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Sujeitos e papéis",
+          "enunciado": "As normas identificam as categorias de Pessoas que participam das relações institucionais?",
+          "objetivo": "Verificar documentalmente se as normas identificam as categorias de Pessoas que participam das relações institucionais, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Pessoa; Papel Institucional; Posição Institucional; Condição Institucional; Fundamento Jurídico",
+          "relacoes_semanticas": "PESSOA → participa de → RELAÇÃO INSTITUCIONAL (relação a confirmar na rede)",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Lei 15.963/2020",
+              "dispositivo": "Art. 1º e disposições preliminares",
+              "url": "https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1364959270.pdf",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei 15.963/2020 identifica administrados e regime de procedimento administrativo; portal de serviços distingue cidadão, empresa e servidor, sem taxonomia normativa completa de pessoas e posições.",
+              "evidencia": "Lei disciplina direitos dos administrados; categorias institucionais não totalmente inventariadas."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Lei disciplina direitos dos administrados; categorias institucionais não totalmente inventariadas.",
+          "achado": "Lei 15.963/2020 identifica administrados e regime de procedimento administrativo; portal de serviços distingue cidadão, empresa e servidor, sem taxonomia normativa completa de pessoas e posições.",
+          "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Lei 15.963/2020 identifica administrados e regime de procedimento administrativo; portal de serviços distingue cidadão, empresa e servidor, sem taxonomia normativa completa de pessoas e posições.",
+          "acao_preparacao": "Consolidar categorias de pessoas por relações institucionais e fundamento normativo.",
+          "recomendacao_institucional": "Consolidar categorias de pessoas por relações institucionais e fundamento normativo.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.01.json",
+        "git_blob_sha_origem": "f643b6d61dc16c81d911bb76353c2b6005817912"
+      },
+      {
+        "id_quesito": "PN-05.01",
+        "dimensao": "D05",
+        "bloco": "1 — Processualidade",
+        "enunciado": "O exercício das competências por processos administrativos tem base normativa identificável?",
+        "objetivo": "Verificar documentalmente se o exercício das competências por processos administrativos tem base normativa identificável, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "resultado": {
+          "classificacao": "ATENDIDO",
+          "pontos": 2,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Processualidade",
+          "enunciado": "O exercício das competências por processos administrativos tem base normativa identificável?",
+          "objetivo": "Verificar documentalmente se o exercício das competências por processos administrativos tem base normativa identificável, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Processo Administrativo; Procedimento; Ato Administrativo; Competência; Validade",
+          "relacoes_semanticas": "COMPETÊNCIA → fundamenta → ATO ADMINISTRATIVO (validar relação na rede)",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Lei 15.963/2020",
+              "dispositivo": "Art. 1º e capítulos do procedimento",
+              "url": "https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1364959270.pdf",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei 15.963/2020 estabelece normas gerais de procedimento administrativo na Administração Direta e Indireta, definindo processo administrativo e disciplinando atos e decisões.",
+              "evidencia": "Fundamento normativo municipal expresso para exercício de competências mediante processos administrativos."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Fundamento normativo municipal expresso para exercício de competências mediante processos administrativos.",
+          "achado": "Lei 15.963/2020 estabelece normas gerais de procedimento administrativo na Administração Direta e Indireta, definindo processo administrativo e disciplinando atos e decisões.",
+          "justificativa": "Classificação ATENDIDO (2 ponto(s)) segundo o critério literal do Método. Lei 15.963/2020 estabelece normas gerais de procedimento administrativo na Administração Direta e Indireta, definindo processo administrativo e disciplinando atos e decisões.",
+          "acao_preparacao": "Verificar regras específicas por espécie processual em etapa posterior.",
+          "recomendacao_institucional": "Verificar regras específicas por espécie processual em etapa posterior.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.01.json",
+        "git_blob_sha_origem": "7869e513a92b6de9ba6b91a777b450c12efa4ed1"
+      },
+      {
+        "id_quesito": "PN-06.01",
+        "dimensao": "D06",
+        "bloco": "1 — Produção documental",
+        "enunciado": "A produção e o registro dos documentos institucionais têm fundamento normativo?",
+        "objetivo": "Verificar documentalmente se a produção e o registro dos documentos institucionais têm fundamento normativo, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "resultado": {
+          "classificacao": "ATENDIDO",
+          "pontos": 2,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Produção documental",
+          "enunciado": "A produção e o registro dos documentos institucionais têm fundamento normativo?",
+          "objetivo": "Verificar documentalmente se a produção e o registro dos documentos institucionais têm fundamento normativo, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Documento Arquivístico; Arquivo Público; Evidência; Proveniência; Cadeia de Custódia",
+          "relacoes_semanticas": "DOCUMENTO ARQUIVÍSTICO → sustenta → EVIDÊNCIA (validar relação na rede)",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Lei 15.963/2020",
+              "dispositivo": "Arts. 1º, 97 e 98",
+              "url": "https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1364959270.pdf",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei 15.963/2020 define processo como conjunto documental e regula processos eletrônicos, organização, autenticidade e guarda, especialmente arts. 97 e 98.",
+              "evidencia": "Fundamento para produção, registro e gestão documental de processos institucionais."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Fundamento para produção, registro e gestão documental de processos institucionais.",
+          "achado": "Lei 15.963/2020 define processo como conjunto documental e regula processos eletrônicos, organização, autenticidade e guarda, especialmente arts. 97 e 98.",
+          "justificativa": "Classificação ATENDIDO (2 ponto(s)) segundo o critério literal do Método. Lei 15.963/2020 define processo como conjunto documental e regula processos eletrônicos, organização, autenticidade e guarda, especialmente arts. 97 e 98.",
+          "acao_preparacao": "Confrontar com regras arquivísticas e tabela de temporalidade em avaliação completa.",
+          "recomendacao_institucional": "Confrontar com regras arquivísticas e tabela de temporalidade em avaliação completa.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.01.json",
+        "git_blob_sha_origem": "d2135bf7fdeba2fc391d99574118a22c173af7a1"
+      },
+      {
+        "id_quesito": "PN-07.01",
+        "dimensao": "D07",
+        "bloco": "1 — Equivalência jurídica",
+        "enunciado": "O arcabouço admite a prática digital dos atos e processos pertinentes?",
+        "objetivo": "Verificar documentalmente se o arcabouço admite a prática digital dos atos e processos pertinentes, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "ATENDIDO",
+        "pontos": 2,
+        "resultado": {
+          "classificacao": "ATENDIDO",
+          "pontos": 2,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Equivalência jurídica",
+          "enunciado": "O arcabouço admite a prática digital dos atos e processos pertinentes?",
+          "objetivo": "Verificar documentalmente se o arcabouço admite a prática digital dos atos e processos pertinentes, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Ato Administrativo; Processo Administrativo; Identidade; Credencial; Documento Arquivístico",
+          "relacoes_semanticas": "ATO ADMINISTRATIVO → realiza-se no meio digital (correspondência a validar)",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "SEI Externo e Lei 15.963/2020",
+              "dispositivo": "Serviço digital e arts. 97-98",
+              "url": "https://portal-adm.campinas.sp.gov.br/servico/cadastrar-e-peticionar-processo-eletronico-no-sei-externo",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei 15.963/2020 prevê processo eletrônico e o serviço oficial SEI Externo permite cadastro e peticionamento digital.",
+              "evidencia": "Admissibilidade normativa e mecanismo institucional de atos e processos digitais demonstrados."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Admissibilidade normativa e mecanismo institucional de atos e processos digitais demonstrados.",
+          "achado": "Lei 15.963/2020 prevê processo eletrônico e o serviço oficial SEI Externo permite cadastro e peticionamento digital.",
+          "justificativa": "Classificação ATENDIDO (2 ponto(s)) segundo o critério literal do Método. Lei 15.963/2020 prevê processo eletrônico e o serviço oficial SEI Externo permite cadastro e peticionamento digital.",
+          "acao_preparacao": "Verificar cobertura por espécies de atos e exceções à tramitação eletrônica.",
+          "recomendacao_institucional": "Verificar cobertura por espécies de atos e exceções à tramitação eletrônica.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.01.json",
+        "git_blob_sha_origem": "afbcbeb642d4a934cd4319939aa176dcd4da09c2"
+      },
+      {
+        "id_quesito": "PN-08.01",
+        "dimensao": "D08",
+        "bloco": "1 — Relações entre entidades",
+        "enunciado": "As competências para intercâmbio institucional de informações estão fundamentadas?",
+        "objetivo": "Verificar documentalmente se as competências para intercâmbio institucional de informações estão fundamentadas, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "resultado": {
+          "classificacao": "PARCIALMENTE_ATENDIDO",
+          "pontos": 1,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Relações entre entidades",
+          "enunciado": "As competências para intercâmbio institucional de informações estão fundamentadas?",
+          "objetivo": "Verificar documentalmente se as competências para intercâmbio institucional de informações estão fundamentadas, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Relação Interinstitucional; Entidade Pública Emitente; Entidade Pública Recebedora; Condições de Sustentação",
+          "relacoes_semanticas": "ENTIDADE PÚBLICA → assume papel de → ENTIDADE PÚBLICA EMITENTE / RECEBEDORA",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Critérios herdados do instrumento v5",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Política de Privacidade PMC",
+              "dispositivo": "Compartilhamento de Dados Pessoais",
+              "url": "https://portal-adm.campinas.sp.gov.br/node/137198",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Política de Privacidade municipal descreve compartilhamento entre secretarias e com outras entidades nos casos legais, mas não identifica matriz completa de competências específicas e instrumentos interinstitucionais.",
+              "evidencia": "Há fundamento geral de tratamento e compartilhamento; competências concretas de cada intercâmbio não integralmente demonstradas."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Há fundamento geral de tratamento e compartilhamento; competências concretas de cada intercâmbio não integralmente demonstradas.",
+          "achado": "Política de Privacidade municipal descreve compartilhamento entre secretarias e com outras entidades nos casos legais, mas não identifica matriz completa de competências específicas e instrumentos interinstitucionais.",
+          "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Política de Privacidade municipal descreve compartilhamento entre secretarias e com outras entidades nos casos legais, mas não identifica matriz completa de competências específicas e instrumentos interinstitucionais.",
+          "acao_preparacao": "Inventariar acordos, bases legais, agentes responsáveis e finalidades de intercâmbio.",
+          "recomendacao_institucional": "Inventariar acordos, bases legais, agentes responsáveis e finalidades de intercâmbio.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.01.json",
+        "git_blob_sha_origem": "30e6fa8006c1125a8151baf22f46d132f44fb03b"
+      },
+      {
+        "id_quesito": "PN-09.01",
+        "dimensao": "D09",
+        "bloco": "1 — Governança",
+        "enunciado": "É possível identificar os fundamentos normativos que estabelecem as instâncias de governança da Entidade Pública, suas competências, atribuições, responsabilidades e relações de coordenação, supervisão e controle, distinguindo os órgãos e agentes responsáveis por cada função?",
+        "objetivo": "Verificar documentalmente se as instâncias de governança e suas competências estão normativamente estabelecidas, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "resultado": {
+          "classificacao": "PARCIALMENTE_ATENDIDO",
+          "pontos": 1,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Governança",
+          "enunciado": "É possível identificar os fundamentos normativos que estabelecem as instâncias de governança da Entidade Pública, suas competências, atribuições, responsabilidades e relações de coordenação, supervisão e controle, distinguindo os órgãos e agentes responsáveis por cada função?",
+          "objetivo": "Verificar documentalmente se as instâncias de governança e suas competências estão normativamente estabelecidas, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Administração Pública; Competência; Governança; Responsabilidade; Norma Jurídica",
+          "relacoes_semanticas": "NORMA JURÍDICA → obriga → ADMINISTRAÇÃO PÚBLICA",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Redação atualizada; conferir alinhamento dos critérios originais",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Decreto 17.301/2011 e LC 202/2018",
+              "dispositivo": "Sistema de Controle Interno",
+              "url": "https://campinas.sp.gov.br/secretaria/gestao-e-controle/sobre",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Lei Orgânica define atribuições do Prefeito e a Secretaria Municipal de Gestão e Controle tem função de controle interno; não foi verificada a matriz completa de instâncias de governança e relações.",
+              "evidencia": "Instância formal de controle e sua função institucional identificadas; articulação geral de governança ainda não mapeada."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Instância formal de controle e sua função institucional identificadas; articulação geral de governança ainda não mapeada.",
+          "achado": "Lei Orgânica define atribuições do Prefeito e a Secretaria Municipal de Gestão e Controle tem função de controle interno; não foi verificada a matriz completa de instâncias de governança e relações.",
+          "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Lei Orgânica define atribuições do Prefeito e a Secretaria Municipal de Gestão e Controle tem função de controle interno; não foi verificada a matriz completa de instâncias de governança e relações.",
+          "acao_preparacao": "Mapear instâncias de governança, coordenação, supervisão e controle com atos vigentes.",
+          "recomendacao_institucional": "Mapear instâncias de governança, coordenação, supervisão e controle com atos vigentes.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.01.json",
+        "git_blob_sha_origem": "83fe877d5a172b81173a52e78b7a449813242dd9"
+      },
+      {
+        "id_quesito": "PN-10.01",
+        "dimensao": "D10",
+        "bloco": "1 — Inventário normativo",
+        "enunciado": "É possível identificar o conjunto de Normas Jurídicas aplicáveis à Atuação Estatal da Entidade Pública, relacionando-as às suas competências, funções, serviços, processos e atos administrativos, com indicação dos respectivos fundamentos jurídicos?",
+        "objetivo": "Verificar documentalmente se é possível identificar o conjunto de normas aplicáveis à atuação da Entidade, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+        "classificacao": "PARCIALMENTE_ATENDIDO",
+        "pontos": 1,
+        "resultado": {
+          "classificacao": "PARCIALMENTE_ATENDIDO",
+          "pontos": 1,
+          "aplicabilidade": "APLICAVEL",
+          "verificabilidade": "VERIFICADO_COM_RESSALVAS"
+        },
+        "quesito": {
+          "bloco": "1 — Inventário normativo",
+          "enunciado": "É possível identificar o conjunto de Normas Jurídicas aplicáveis à Atuação Estatal da Entidade Pública, relacionando-as às suas competências, funções, serviços, processos e atos administrativos, com indicação dos respectivos fundamentos jurídicos?",
+          "objetivo": "Verificar documentalmente se é possível identificar o conjunto de normas aplicáveis à atuação da Entidade, conforme as competências e o regime jurídico aplicáveis à Entidade.",
+          "fundamentacao_conceitual": "Norma Jurídica; Fundamento Jurídico; Historicidade; Competência; Ato Administrativo",
+          "relacoes_semanticas": "FUNDAMENTO JURÍDICO → deriva de → NORMA JURÍDICA",
+          "fundamentacao_normativa_metodo": "Rede CIVITAS — Fundamentação Normativa v6; localizar FN, Nxxx, dispositivo, âmbito e situação jurídica pertinentes; referência preliminar sujeita à validação por quesito.",
+          "evidencias_esperadas": "Norma constitutiva ou regulamentar pertinente; atos publicados; regimentos; instrumentos oficiais e versões vigentes; registros documentais verificáveis.",
+          "objeto_evidenciado_metodo": "Fundamento e condição normativa verificável relacionados ao quesito.",
+          "regra_na": "NA apenas com justificativa formal demonstrando inaplicabilidade ao regime da Entidade.",
+          "situacao_metodologica": "Redação atualizada; conferir alinhamento dos critérios originais",
+          "criterios": {
+            "0": "Ausência de fundamento normativo suficiente ou evidência documental verificável.",
+            "1": "Fundamento ou evidência identificados parcialmente, com lacunas, ambiguidade ou inconsistência.",
+            "2": "Fundamento normativo vigente, aplicável e evidenciado de modo suficiente e coerente."
+          }
+        },
+        "investigacao": {
+          "fontes": [
+            {
+              "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal de Campinas",
+              "documento": "Biblioteca Jurídica Municipal",
+              "dispositivo": "Consulta de legislação municipal",
+              "url": "https://portal-adm.campinas.sp.gov.br/servico/acessar-legislacao-municipal",
+              "data_publicacao": null,
+              "data_consulta": "2026-10-28",
+              "vigencia": "VERIFICACAO_PARCIAL",
+              "conteudo_examinado": "Biblioteca Jurídica oficial permite acesso a leis, decretos e atos normativos e foram localizadas Lei Orgânica e Lei 15.963/2020, mas não existe nesta amostra rastreabilidade integral norma→competência→função→serviço→processo→ato.",
+              "evidencia": "Repositório normativo identificável; falta matriz sistemática de vinculação a todas as atuações da entidade."
+            }
+          ],
+          "pesquisas_sem_resultado": [],
+          "limitacoes": [
+            "Amostra transversal de um quesito por dimensão; não substitui inventário normativo integral.",
+            "Vigência e consolidação de alterações não auditadas exaustivamente para todo o escopo."
+          ]
+        },
+        "analise": {
+          "objeto_efetivamente_evidenciado": "Repositório normativo identificável; falta matriz sistemática de vinculação a todas as atuações da entidade.",
+          "achado": "Biblioteca Jurídica oficial permite acesso a leis, decretos e atos normativos e foram localizadas Lei Orgânica e Lei 15.963/2020, mas não existe nesta amostra rastreabilidade integral norma→competência→função→serviço→processo→ato.",
+          "justificativa": "Classificação PARCIALMENTE_ATENDIDO (1 ponto(s)) segundo o critério literal do Método. Biblioteca Jurídica oficial permite acesso a leis, decretos e atos normativos e foram localizadas Lei Orgânica e Lei 15.963/2020, mas não existe nesta amostra rastreabilidade integral norma→competência→função→serviço→processo→ato.",
+          "acao_preparacao": "Construir matriz normativa rastreável por competência, serviço, processo e ato.",
+          "recomendacao_institucional": "Construir matriz normativa rastreável por competência, serviço, processo e ato.",
+          "observacao_metodologica": "Classificação preliminar no teste transversal; critérios metodológicos publicados com ressalvas e vigência normativa não integralmente reconciliada."
+        },
+        "auditoria_origem": {
+          "estado": "CONCLUIDO_COM_RESSALVAS",
+          "verificacoes": [
+            "ID e dimensão conferidos com Método JSON",
+            "Critérios 0/1/2 transcritos literalmente",
+            "Fonte institucional identificada e URL registrada",
+            "Rastreabilidade fonte→achado→classificação conferida em caráter preliminar"
+          ],
+          "ressalvas": [
+            "Amostragem e verificação normativa parcial",
+            "Não homologação integral do Método"
+          ]
+        },
+        "caminho_origem": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.01.json",
+        "git_blob_sha_origem": "12568c9176ffe163747f58ffaf4226675c540f93"
+      }
+    ],
+    "dimensoes": [
+      {
+        "codigo": "PN-01",
+        "nome": "01 — Constituição e Organização Institucional",
+        "estado": "PARCIAL",
+        "n_previstos": 11,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 10,
+        "atendido": 1,
+        "parcial": 0,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 2,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 9.090909090909092,
+        "cobertura_pontuavel_percentual": 9.090909090909092
+      },
+      {
+        "codigo": "PN-02",
+        "nome": "02 — Competências e Responsabilidades",
+        "estado": "PARCIAL",
+        "n_previstos": 13,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 12,
+        "atendido": 0,
+        "parcial": 1,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 7.6923076923076925,
+        "cobertura_pontuavel_percentual": 7.6923076923076925
+      },
+      {
+        "codigo": "PN-03",
+        "nome": "03 — Funções e Serviços Públicos",
+        "estado": "PARCIAL",
+        "n_previstos": 11,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 10,
+        "atendido": 0,
+        "parcial": 1,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 9.090909090909092,
+        "cobertura_pontuavel_percentual": 9.090909090909092
+      },
+      {
+        "codigo": "PN-04",
+        "nome": "04 — Relações e Participações Institucionais",
+        "estado": "PARCIAL",
+        "n_previstos": 12,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 11,
+        "atendido": 0,
+        "parcial": 1,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 8.333333333333334,
+        "cobertura_pontuavel_percentual": 8.333333333333334
+      },
+      {
+        "codigo": "PN-05",
+        "nome": "05 — Processo e Ato Administrativo",
+        "estado": "PARCIAL",
+        "n_previstos": 11,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 10,
+        "atendido": 1,
+        "parcial": 0,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 2,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 9.090909090909092,
+        "cobertura_pontuavel_percentual": 9.090909090909092
+      },
+      {
+        "codigo": "PN-06",
+        "nome": "06 — Informação, Documentos e Evidências",
+        "estado": "PARCIAL",
+        "n_previstos": 12,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 11,
+        "atendido": 1,
+        "parcial": 0,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 2,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 8.333333333333334,
+        "cobertura_pontuavel_percentual": 8.333333333333334
+      },
+      {
+        "codigo": "PN-07",
+        "nome": "07 — Realização Digital da Atuação",
+        "estado": "PARCIAL",
+        "n_previstos": 11,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 10,
+        "atendido": 1,
+        "parcial": 0,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 2,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 9.090909090909092,
+        "cobertura_pontuavel_percentual": 9.090909090909092
+      },
+      {
+        "codigo": "PN-08",
+        "nome": "08 — Interinstitucionalidade e Interoperabilidade",
+        "estado": "PARCIAL",
+        "n_previstos": 12,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 11,
+        "atendido": 0,
+        "parcial": 1,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 8.333333333333334,
+        "cobertura_pontuavel_percentual": 8.333333333333334
+      },
+      {
+        "codigo": "PN-09",
+        "nome": "09 — Governança, Segurança e Responsabilização",
+        "estado": "PARCIAL",
+        "n_previstos": 11,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 10,
+        "atendido": 0,
+        "parcial": 1,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 9.090909090909092,
+        "cobertura_pontuavel_percentual": 9.090909090909092
+      },
+      {
+        "codigo": "PN-10",
+        "nome": "10 — Historicidade e Gestão do Arcabouço Normativo",
+        "estado": "PARCIAL",
+        "n_previstos": 11,
+        "n_localizados": 1,
+        "n_validos": 1,
+        "n_validos_com_ressalvas": 1,
+        "n_pendentes_saneamento": 0,
+        "n_invalidos": 0,
+        "n_incompativeis": 0,
+        "n_ausentes": 10,
+        "atendido": 0,
+        "parcial": 1,
+        "nao_atendido": 0,
+        "na": 0,
+        "nv": 0,
+        "n_pontuaveis": 1,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_percentual": null,
+        "cobertura_percentual": 9.090909090909092,
+        "cobertura_pontuavel_percentual": 9.090909090909092
+      }
+    ],
+    "global": {
+      "n_previstos": 115,
+      "n_localizados": 10,
+      "n_validos": 10,
+      "n_validos_com_ressalvas": 10,
+      "n_pendentes_saneamento": 0,
+      "n_invalidos": 0,
+      "n_incompativeis": 0,
+      "n_ausentes": 105,
+      "atendido": 4,
+      "parcial": 6,
+      "nao_atendido": 0,
+      "na": 0,
+      "nv": 0,
+      "n_pontuaveis": 10,
+      "pontos_obtidos": 14,
+      "pontos_possiveis": 20,
+      "indice_percentual": null,
+      "cobertura_percentual": 8.695652173913043,
+      "cobertura_pontuavel_percentual": 8.695652173913043,
+      "estado": "PARCIAL"
+    },
+    "painel": {
+      "schema_version": "1.0",
+      "estado_mapeamento": "PENDENTE_CONTRATO_HTML_V0.3",
+      "entidade": "Prefeitura Municipal de Campinas",
+      "municipio": "Campinas – SP",
+      "cnpj": "51.885.242/0001-40",
+      "data": "2026-10-28",
+      "instrumento": "CIVITAS Prontidão Normativa — Método v1",
+      "total": 115,
+      "indice_geral": null,
+      "aplicados": null,
+      "atendido": 4,
+      "parcial": 6,
+      "nao_atendido": 0,
+      "na": 0,
+      "nv": 0,
+      "pendentes": 105,
+      "dimensoes": [
+        {
+          "codigo": "PN-01",
+          "nome": "01 — Constituição e Organização Institucional",
+          "total": 11,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-02",
+          "nome": "02 — Competências e Responsabilidades",
+          "total": 13,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 12,
+          "indice": null
+        },
+        {
+          "codigo": "PN-03",
+          "nome": "03 — Funções e Serviços Públicos",
+          "total": 11,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-04",
+          "nome": "04 — Relações e Participações Institucionais",
+          "total": 12,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 11,
+          "indice": null
+        },
+        {
+          "codigo": "PN-05",
+          "nome": "05 — Processo e Ato Administrativo",
+          "total": 11,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-06",
+          "nome": "06 — Informação, Documentos e Evidências",
+          "total": 12,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 11,
+          "indice": null
+        },
+        {
+          "codigo": "PN-07",
+          "nome": "07 — Realização Digital da Atuação",
+          "total": 11,
+          "atendido": 1,
+          "parcial": 0,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-08",
+          "nome": "08 — Interinstitucionalidade e Interoperabilidade",
+          "total": 12,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 11,
+          "indice": null
+        },
+        {
+          "codigo": "PN-09",
+          "nome": "09 — Governança, Segurança e Responsabilização",
+          "total": 11,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        },
+        {
+          "codigo": "PN-10",
+          "nome": "10 — Historicidade e Gestão do Arcabouço Normativo",
+          "total": 11,
+          "atendido": 0,
+          "parcial": 1,
+          "nao_atendido": 0,
+          "na": 0,
+          "nv": 0,
+          "pendentes": 10,
+          "indice": null
+        }
+      ],
+      "sintese": {
+        "fortes": [],
+        "atencao": [],
+        "lacunas": [],
+        "recomendacoes": []
+      },
+      "nota": "Consolidação parcial: 10 registros válidos com ressalvas de 115 quesitos (8.70%); 105 ausentes. Índices oficiais não publicados por ausência de homologação das fórmulas. Contrato HTML pendente."
+    }
+  },
+  "auditoria": {
+    "estado": "CONCLUIDA_COM_RESSALVAS",
+    "problemas": [
+      {
+        "codigo": "FORMULA_NAO_HOMOLOGADA",
+        "severidade": "RESSALVA",
+        "campo": "resultados.*.indice_percentual",
+        "descricao": "Fórmulas do Método JSON registradas com interpretacao NAO_HOMOLOGADA; índice oficial não publicado.",
+        "acao_requerida": "Homologar fórmula e agregação metodológica antes de calcular índice oficial."
+      }
+    ],
+    "contagens": {
+      "validos_com_ressalvas": 10,
+      "ausentes": 105,
+      "pendentes_saneamento": 0
+    },
+    "formulas_aplicadas": [],
+    "formulas_nao_definidas": [
+      "indice_percentual_dimensional",
+      "indice_percentual_global"
+    ],
+    "integridade": {
+      "metodo_git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+      "validacao_metodo_git_blob_sha": "1fde868a0b0d7d9d8212c4dd664057d8d095662d",
+      "arquivos_origem": [
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D01/PN-01.01.json",
+          "git_blob_sha": "c3dbda36507234495a3df5217aca5a139a8127cb"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D02/PN-02.01.json",
+          "git_blob_sha": "384ae06cdb11581766983a32ff299ad474074694"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D03/PN-03.01.json",
+          "git_blob_sha": "e30035013b68eea04670b1e049bf6de901c2a6fe"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D04/PN-04.01.json",
+          "git_blob_sha": "f643b6d61dc16c81d911bb76353c2b6005817912"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D05/PN-05.01.json",
+          "git_blob_sha": "7869e513a92b6de9ba6b91a777b450c12efa4ed1"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D06/PN-06.01.json",
+          "git_blob_sha": "d2135bf7fdeba2fc391d99574118a22c173af7a1"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D07/PN-07.01.json",
+          "git_blob_sha": "afbcbeb642d4a934cd4319939aa176dcd4da09c2"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D08/PN-08.01.json",
+          "git_blob_sha": "30e6fa8006c1125a8151baf22f46d132f44fb03b"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D09/PN-09.01.json",
+          "git_blob_sha": "83fe877d5a172b81173a52e78b7a449813242dd9"
+        },
+        {
+          "caminho": "avaliacoes/3509502-001/03-quesitos/D10/PN-10.01.json",
+          "git_blob_sha": "12568c9176ffe163747f58ffaf4226675c540f93"
+        }
+      ],
+      "criterios_conferidos": [
+        "bloco",
+        "enunciado",
+        "objetivo",
+        "fundamentacao_conceitual",
+        "relacoes_semanticas",
+        "fundamentacao_normativa_metodo",
+        "evidencias_esperadas",
+        "objeto_evidenciado_metodo",
+        "regra_na",
+        "situacao_metodologica",
+        "criterios"
+      ],
+      "sem_modificacao_dos_arquivos_individuais": true
+    }
+  },
+  "publicacao": {
+    "apto_planilha": true,
+    "apto_painel": false,
+    "ressalvas": [
+      "Consolidação parcial, 105 quesitos ausentes",
+      "Índices percentuais não homologados",
+      "Todos os 10 registros com ressalvas de verificação normativa",
+      "Contrato HTML v0.3 não homologado"
+    ],
+    "observacao": "Aptidão para planilha parcial de dados e contagens, sem índice oficial; painel final não apto."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "3509502-003",
+  "id_quesito": "PN-01.10",
+  "dimensao": "D01",
+  "entidade": {
+    "nome": "Prefeitura Municipal de Campinas",
+    "identificador": "3509502",
+    "escopo": "Administração Direta do Poder Executivo municipal"
+  },
+  "metodo_referencia": {
+    "arquivo": "metodo/v1/metodo.json",
+    "versao": "v1",
+    "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
+    "estado_publicacao": "PUBLICADO_COM_RESSALVAS",
+    "sha256_xlsx_origem": "89fe851f5aff2c26f6df58492966b42c10455d3d875c3c70de3ed5b7f84ccfe0"
+  },
+  "data_referencia": "2026-10-28",
+  "data_avaliacao": "2026-10-28",
+  "quesito": {
+    "bloco": "5 — Inserção nos Poderes",
+    "enunciado": "O arcabouço normativo permite identificar a inserção da Entidade Pública na organização institucional do Estado, incluindo sua vinculação ao Poder de Estado correspondente, quando aplicável?",
+    "objetivo": "Verificar a inserção jurídico-institucional da entidade no Poder de Estado pertinente, distinguindo-a de suas competências específicas.",
+    "fundamentacao_conceitual": "Estado; Poder de Estado; Administração Pública; Entidade Pública; Ente Federativo",
+    "relacoes_semanticas": "Estado → organiza-se em → Poder de Estado; Poder de Estado → organiza-se por meio de → Administração Pública",
+    "fundamentacao_normativa_metodo": "Normas do Arcabouço Normativo de Referência que disciplinam a organização administrativa e a constituição/criação de Entidades Públicas. N060 — Lei Federal nº 14.600/2023 integra a referência para organização administrativa. Dispositivos e demais Normas de Referência serão vinculados na consolidação da Rede Semântica Normativa.",
+    "evidencias_esperadas": "Constituição, lei de organização e normas instituidoras que definem a inserção da entidade no respectivo Poder.",
+    "objeto_evidenciado_metodo": "Vínculo jurídico-organizacional com o Poder de Estado aplicável.",
+    "regra_na": "NA apenas com justificativa documentada de inaplicabilidade ao regime da Entidade.",
+    "situacao_metodologica": "Critérios herdados do instrumento v5",
+    "criterios": {
+      "0": "Ausência de base normativa que identifique a inserção institucional.",
+      "1": "Referências existentes, porém sem vinculação suficientemente clara.",
+      "2": "Norma vigente e aplicável identifica expressamente a inserção institucional."
+    }
+  },
+  "investigacao": {
+    "fontes": [
+      {
+        "orgao": "Prefeitura Municipal de Campinas / Câmara Municipal",
+        "documento": "Fonte oficial pertinente",
+        "dispositivo": null,
+        "url": "https://sapl.campinas.sp.leg.br/norma/1",
+        "data_publicacao": null,
+        "data_consulta": "2026-10-28",
+        "vigencia": "NAO_VERIFICADA_INTEGRALMENTE",
+        "conteudo_examinado": "A Lei Orgânica identifica a Prefeitura no Poder Executivo municipal.",
+        "evidencia": "A Lei Orgânica identifica a Prefeitura no Poder Executivo municipal."
+      }
+    ],
+    "pesquisas_sem_resultado": [],
+    "limitacoes": [
+      "Pesquisa exploratória; verificação de completude reservada ao Prompt 3."
+    ]
+  },
+  "analise": {
+    "objeto_efetivamente_evidenciado": "A Lei Orgânica identifica a Prefeitura no Poder Executivo municipal.",
+    "achado": "A Lei Orgânica identifica a Prefeitura no Poder Executivo municipal.",
+    "justificativa": "Classificação preliminar segundo critério 2: A Lei Orgânica identifica a Prefeitura no Poder Executivo municipal.",
+    "acao_preparacao": "Conferir normas vigentes e alterações.",
+    "recomendacao_institucional": "Manter rastreabilidade das competências e estruturas.",
+    "observacao_metodologica": null
+  },
+  "resultado": {
+    "classificacao": "ATENDIDO",
+    "pontos": 2,
+    "aplicabilidade": "APLICAVEL",
+    "verificabilidade": "PRELIMINAR"
+  },
+  "auditoria": {
+    "estado": "NAO_EXECUTADA_AGUARDANDO_PROMPT_3",
+    "verificacoes": [],
+    "ressalvas": []
+  }
+}

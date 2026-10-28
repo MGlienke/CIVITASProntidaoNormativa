@@ -81,8 +81,8 @@
     "git_blob_sha": "266b9bf8b4481278fba59eceb6a4cbecc2b8941b",
     "estado_publicacao": "PUBLICADO_COM_RESSALVAS"
   },
-  "fase_atual": "CONSOLIDACAO",
-  "estado": "AMOSTRA_TRANSVERSAL_CONCLUIDA_COM_RESSALVAS",
+  "fase_atual": "GERACAO_PLANILHA",
+  "estado": "CONSOLIDACAO_PARCIAL_PUBLICADA_COM_RESSALVAS",
   "progresso_por_dimensao": {
     "D01": {
       "avaliados": 1,
@@ -128,7 +128,8 @@
   "proximo_quesito": null,
   "artefatos_e_shas": {
     "01-ambiente.json": "a6efb4e1558fd4358aebefa076f9ef43976f3cf9",
-    "02-entidade.json": "742e6637caf5ab90ddd03ff6063687b6934b68a9"
+    "02-entidade.json": "742e6637caf5ab90ddd03ff6063687b6934b68a9",
+    "04-consolidacoes/consolidacao-v001.json": "a33c716ce0fd8dae214f31987864691f36587bbc"
   },
   "checkpoints": [],
   "pendencias": [
@@ -146,6 +147,11 @@
       "data": "2026-10-28",
       "tipo": "AMOSTRA_TRANSVERSAL_PERSISTIDA",
       "descricao": "Dez quesitos PN-01.01 a PN-10.01 gravados e relidos; cada dimensão permanece incompleta; classificações preliminares com ressalvas."
+    },
+    {
+      "data": "2026-10-28",
+      "tipo": "CONSOLIDACAO_V001_PUBLICADA",
+      "descricao": "10 quesitos válidos com ressalvas; 105 ausentes; índices oficiais nulos por fórmula não homologada; planilha parcial apta, painel não apto."
     }
   ],
   "atualizado_em": "2026-10-28",
@@ -165,5 +171,16 @@
     "quesitos_avaliados": 10,
     "quesitos_previstos": 115,
     "percentual": 8.695652173913043
+  },
+  "consolidacao_atual": {
+    "versao": "v001",
+    "caminho": "avaliacoes/3509502-001/04-consolidacoes/consolidacao-v001.json",
+    "git_blob_sha": "a33c716ce0fd8dae214f31987864691f36587bbc",
+    "estado": "PARCIAL",
+    "validos_com_ressalvas": 10,
+    "ausentes": 105,
+    "indice_oficial": null,
+    "apto_planilha_parcial": true,
+    "apto_painel": false
   }
 }

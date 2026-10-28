@@ -1,0 +1,613 @@
+{
+  "schema_version": "1.0",
+  "tipo_artefato": "CIVITAS_CONSOLIDACAO",
+  "id_avaliacao": "5208707-001",
+  "versao_consolidacao": 1,
+  "estado": "PARCIAL",
+  "data_consolidacao": "2026-10-28",
+  "contexto": {
+    "entidade": "Prefeitura Municipal de Goiânia",
+    "escopo": "Administração Direta do Poder Executivo municipal",
+    "metodo": "CIVITAS Prontidão Normativa - Metodo - v1.xlsx",
+    "sha256_metodo": null
+  },
+  "inventario": {
+    "quesitos_previstos": 115,
+    "registros": [
+      {
+        "id": "PN-01.01",
+        "status": "PENDENTE_SANEAMENTO"
+      },
+      {
+        "id": "PN-01.02",
+        "status": "VALIDO_COM_RESSALVAS"
+      },
+      {
+        "id": "PN-01.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-01.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.01",
+        "status": "VALIDO_COM_RESSALVAS"
+      },
+      {
+        "id": "PN-02.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.12",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-02.13",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-03.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-04.12",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-05.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-06.12",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-07.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-08.12",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-09.11",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.01",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.02",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.03",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.04",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.05",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.06",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.07",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.08",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.09",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.10",
+        "status": "AUSENTE"
+      },
+      {
+        "id": "PN-10.11",
+        "status": "AUSENTE"
+      }
+    ]
+  },
+  "resultados": {
+    "dimensoes": [
+      {
+        "dimensao": "D01",
+        "previstos": 11,
+        "validos": 1,
+        "ausentes": 9,
+        "pendentes": 1,
+        "pontos_obtidos": 2,
+        "pontos_possiveis": 2,
+        "indice_parcial": 100
+      },
+      {
+        "dimensao": "D02",
+        "previstos": 13,
+        "validos": 1,
+        "ausentes": 12,
+        "pendentes": 0,
+        "pontos_obtidos": 1,
+        "pontos_possiveis": 2,
+        "indice_parcial": 50
+      },
+      {
+        "dimensao": "D03",
+        "previstos": 11,
+        "validos": 0,
+        "ausentes": 11,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D04",
+        "previstos": 12,
+        "validos": 0,
+        "ausentes": 12,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D05",
+        "previstos": 11,
+        "validos": 0,
+        "ausentes": 11,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D06",
+        "previstos": 12,
+        "validos": 0,
+        "ausentes": 12,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D07",
+        "previstos": 11,
+        "validos": 0,
+        "ausentes": 11,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D08",
+        "previstos": 12,
+        "validos": 0,
+        "ausentes": 12,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D09",
+        "previstos": 11,
+        "validos": 0,
+        "ausentes": 11,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      },
+      {
+        "dimensao": "D10",
+        "previstos": 11,
+        "validos": 0,
+        "ausentes": 11,
+        "pendentes": 0,
+        "pontos_obtidos": 0,
+        "pontos_possiveis": 0,
+        "indice_parcial": null
+      }
+    ],
+    "global": {
+      "previstos": 115,
+      "localizados": 3,
+      "validos": 2,
+      "pendentes_saneamento": 1,
+      "ausentes": 112,
+      "pontos_obtidos": 3,
+      "pontos_possiveis": 4,
+      "indice_parcial": 75,
+      "cobertura_percentual": 1.7391304347826086
+    }
+  },
+  "auditoria": {
+    "estado": "PARCIAL",
+    "problemas": [
+      {
+        "id": "PN-01.01",
+        "tipo": "CAMPOS_METODO_INCOMPLETOS",
+        "acao": "Sanear registro original"
+      }
+    ],
+    "ressalvas": [
+      "Auditoria de transcrição literal dos demais quesitos não concluída",
+      "Sem SHA-256 do Método",
+      "Indicadores parciais não são avaliação final"
+    ]
+  },
+  "publicacao": {
+    "apto_planilha": false,
+    "apto_painel": false
+  }
+}

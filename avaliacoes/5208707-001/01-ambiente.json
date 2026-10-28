@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "id_avaliacao": "5208707-001",
+  "estado": "PREPARADO",
+  "data_preparacao": "2026-10-28",
+  "metodo": {
+    "arquivo": "CIVITAS Prontidão Normativa - Metodo - v1.xlsx",
+    "origem": {
+      "tipo": "BIBLIOTECA",
+      "repositorio": null,
+      "caminho": "/CIVITAS/Prontidao Normativa/Metodo/",
+      "ref": null
+    },
+    "versao": "v1",
+    "sha256": null,
+    "abas_identificadas": [
+      "ID",
+      "METODO",
+      "AVALIACAO",
+      "RESULTADOS",
+      "PAINEL",
+      "LISTAS"
+    ],
+    "dimensoes": 10,
+    "quesitos": 115,
+    "identificadores_duplicados": [],
+    "integridade": "VERIFICACAO_ESTRUTURAL_PARCIAL"
+  },
+  "artefatos_painel": [
+    {
+      "arquivo": "CIVITAS-Painel-HTML-v1.1.html",
+      "origem": "BIBLIOTECA",
+      "funcao": "template HTML",
+      "validacao": "LOCALIZADO_NAO_AUDITADO"
+    },
+    {
+      "arquivo": "CIVITAS-Painel-dados-v0.1.json",
+      "origem": "BIBLIOTECA",
+      "funcao": "estrutura de dados do painel",
+      "validacao": "LOCALIZADO_NAO_AUDITADO"
+    }
+  ],
+  "pendencias": [
+    "Conversão e publicação do Método no GitHub ainda pendentes",
+    "Especificação de preenchimento do painel não confirmada nesta execução"
+  ],
+  "limitacoes": [
+    "Integridade SHA-256 do XLSX não calculada nesta execução",
+    "Contagem e unicidade verificadas sobre texto extraído da planilha, não por auditoria integral de fórmulas e validações"
+  ]
+}

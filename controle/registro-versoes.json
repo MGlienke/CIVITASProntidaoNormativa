@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "tipo_artefato": "CIVITAS_REGISTRO_VERSOES",
-  "data_atualizacao": "2026-10-28",
+  "data_atualizacao": "2026-10-30",
   "repositorio": "MGlienke/CIVITASProntidaoNormativa",
   "branch": "main",
   "politica": {
@@ -15,9 +15,9 @@
   },
   "componentes": {
     "coordenador": {
-      "versao": "v1.4",
-      "caminho": "prompts/coordenador-civitas-v1.4.md",
-      "git_blob_sha": "e30137f825c89bc58fd1879df747289a18ed59f2",
+      "versao": "v1.5",
+      "caminho": "prompts/coordenador-civitas-v1.5.md",
+      "git_blob_sha": "f009f8264b60c468417ff78d937bdd57124ce32f",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -64,9 +64,9 @@
       "uso": "ATIVO"
     },
     "prompt_5": {
-      "versao": "v1.1",
-      "caminho": "prompts/prompt-5-geracao-painel-html-v1.1.md",
-      "git_blob_sha": "70228fca0db596dee70ca695db00dc44137da929",
+      "versao": "v1.2",
+      "caminho": "prompts/prompt-5-geracao-painel-html-v1.2.md",
+      "git_blob_sha": "7ce2aaf654ebca4a9689c0cafa23df13582e8683",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -85,25 +85,25 @@
       "uso": "ATIVO"
     },
     "template_html": {
-      "versao": "v0.3",
-      "caminho": "painel/v0.3/template.html",
-      "git_blob_sha": "0cfd6ce1797b23e17340fd86e186801e2bba0e27",
+      "versao": "v1.1",
+      "caminho": "painel/v1.1/template.html",
+      "git_blob_sha": "01d29dd34635b75ff172c800a8161060722b2cfd",
       "estado": "PUBLICADO_COM_RESSALVAS",
       "uso": "ATIVO"
     },
     "contrato_html": {
-      "versao": "v0.3",
-      "caminho": "painel/v0.3/contrato-dados.json",
-      "git_blob_sha": "a79d5410d7065674412325292a9ce41bc9bb0597",
+      "versao": "v1.1",
+      "caminho": "painel/v1.1/CIVITAS-Painel-HTML-v1.1-contrato-dados.json",
+      "git_blob_sha": "9a60d10e8a369e658304c606c9bc0e6c90bb53ac",
       "estado": "PUBLICADO_COM_RESSALVAS",
       "uso": "ATIVO"
     },
     "validacao_html": {
-      "versao": "v0.3",
-      "caminho": "painel/v0.3/validacao.json",
-      "git_blob_sha": "eed75e1b7442896fc0ac04538b5a343791a48eb7",
-      "estado": "PUBLICADO_COM_RESSALVAS",
-      "uso": "ATIVO"
+      "versao": "v1.1",
+      "caminho": null,
+      "git_blob_sha": null,
+      "estado": "PENDENTE_PUBLICACAO",
+      "uso": "PENDENTE_VALIDACAO_ESPECIFICA"
     },
     "configuracao_publicacao_web": {
       "versao": "v1.0",
@@ -136,9 +136,9 @@
     "prompt_5": [
       "prompt_3",
       "metodo",
+      "validacao_metodo",
       "template_html",
       "contrato_html",
-      "validacao_html",
       "configuracao_publicacao_web"
     ],
     "coordenador": [
@@ -187,6 +187,14 @@
       "situacao": "PENDENTE",
       "motivo": "Ainda não foi executado teste integrado real de preparação, quesitos, consolidação, XLSX e HTML.",
       "acao": "Executar teste ponta a ponta com snapshot fixado e registrar auditoria."
+    },
+    {
+      "id": "UPD-006",
+      "componente": "validacao_html",
+      "prioridade": "ALTA",
+      "situacao": "PENDENTE",
+      "motivo": "Validação formal do template HTML v1.1 ainda não publicada; regras de índice exigem confirmação metodológica.",
+      "acao": "Publicar relatório de validação v1.1 e testar renderização, radar, contrato, cálculo e impressão A3."
     }
   ],
   "historico": [
@@ -215,6 +223,18 @@
       "data": "2026-10-28",
       "tipo": "ATUALIZACAO_COORDENADOR",
       "descricao": "v1.4: avaliação sequencial dos 115 quesitos sem auditoria/checkpoint por dimensão; auditoria concentrada no Prompt 3; confirmações técnicas de persistência preservadas."
+    },
+    {
+      "data": "2026-10-30",
+      "tipo": "ATUALIZACAO_PAINEL_E_COORDENADOR",
+      "descricao": "Ativados Coordenador v1.5, Prompt 05 v1.2, template HTML v1.1 e contrato v1.1. Validação específica v1.1 e confirmação metodológica permanecem pendentes; v0.3 preservado no histórico Git.",
+      "componentes": [
+        "coordenador",
+        "prompt_5",
+        "template_html",
+        "contrato_html",
+        "validacao_html"
+      ]
     }
   ]
 }

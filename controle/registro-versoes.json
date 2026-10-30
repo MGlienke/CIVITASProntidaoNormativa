@@ -64,9 +64,9 @@
       "uso": "ATIVO"
     },
     "prompt_5": {
-      "versao": "v1.3",
-      "caminho": "prompts/prompt-5-geracao-painel-html-v1.3.md",
-      "git_blob_sha": "9049846921372fc7e9ff7f2f0fc1848263283020",
+      "versao": "v1.4",
+      "caminho": "prompts/prompt-5-geracao-painel-html-v1.4.md",
+      "git_blob_sha": "c832b5ba68e39ab5061ffaf0dda6be40936de908",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -85,16 +85,16 @@
       "uso": "ATIVO"
     },
     "template_html": {
-      "versao": "v1.1",
-      "caminho": "painel/v1.1/template.html",
-      "git_blob_sha": "01d29dd34635b75ff172c800a8161060722b2cfd",
+      "versao": "v1.2",
+      "caminho": "painel/v1.2/template.html",
+      "git_blob_sha": "798f0da5ef10134260013de5c89105aadbbcc23c",
       "estado": "PUBLICADO_COM_RESSALVAS",
       "uso": "ATIVO"
     },
     "contrato_html": {
       "versao": "v1.2",
       "caminho": "painel/v1.2/CIVITAS-Painel-HTML-v1.2-contrato-dados.json",
-      "git_blob_sha": "c3cb5c5b9959334150b02bb6b7fe6c6111d8c66a",
+      "git_blob_sha": "cb87555188cacac38f84afa51a158095cc02444d",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -256,6 +256,16 @@
       "componentes": [
         "prompt_1",
         "prompt_3",
+        "prompt_5",
+        "contrato_html"
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "tipo": "ESCALA_FIXA_PAINEL",
+      "descricao": "Template HTML v1.2: escala fixa de quatro cores, cantos externos arredondados e marcador móvel; Prompt 05 v1.4 e contrato v1.2 sincronizados. Teste de navegador pendente.",
+      "componentes": [
+        "template_html",
         "prompt_5",
         "contrato_html"
       ]

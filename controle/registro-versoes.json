@@ -50,9 +50,9 @@
       "uso": "ATIVO"
     },
     "prompt_3": {
-      "versao": "v1.1",
-      "caminho": "prompts/prompt-3-consolidacao-auditoria-v1.1.md",
-      "git_blob_sha": "9af9686d07b52bd50b6fe0d6399f0a3278f601e0",
+      "versao": "v1.2",
+      "caminho": "prompts/prompt-3-consolidacao-auditoria-v1.2.md",
+      "git_blob_sha": "5894303c0b5bc1ff7a9ff8de30b4380658fd62cb",
       "estado": "PUBLICADO",
       "uso": "ATIVO"
     },
@@ -235,6 +235,11 @@
         "contrato_html",
         "validacao_html"
       ]
+    },
+    {
+      "data": "2026-10-30",
+      "tipo": "ATUALIZACAO_PROMPT_3",
+      "descricao": "Ativado Prompt 03 v1.2 com análise sintética executiva rastreável em quatro cartões; identificação CNPJ/data permanece responsabilidade do Prompt 01."
     }
   ]
 }

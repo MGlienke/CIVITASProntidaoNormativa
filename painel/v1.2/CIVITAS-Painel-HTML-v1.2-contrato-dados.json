@@ -1,0 +1,71 @@
+{
+  "versao_template": "1.1",
+  "descricao": "Contrato de integração entre Prompt 01 v2.3, Prompt 03 v1.3 e Prompt 05 v1.3; mantém esquema de apresentação e regra de pontuação do template HTML v1.1, sujeitos à homologação metodológica.",
+  "regras": {
+    "pontuacao": {
+      "atendido": 2,
+      "parcial": 1,
+      "nao_atendido": 0
+    },
+    "denominador": "2*(atendido+parcial+nao_atendido)",
+    "excluidos": [
+      "nv",
+      "na",
+      "criterio_pendente"
+    ],
+    "indice_sem_denominador": null
+  },
+  "campos_raiz": {
+    "entidade": "string",
+    "municipio": "string",
+    "cnpj": "string(14 digitos)|null",
+    "data": "string(YYYY-MM-DD)|null",
+    "instrumento": "string",
+    "total": "integer",
+    "dimensoes": "array[10]",
+    "status": "string",
+    "sintese": {
+      "fortes": "array[string]",
+      "atencao": "array[string]",
+      "lacunas": "array[string]",
+      "recomendacoes": "array[string]"
+    },
+    "nota": "string"
+  },
+  "campos_dimensao": {
+    "codigo": "string",
+    "nome": "string",
+    "total": "integer",
+    "atendido": "integer",
+    "parcial": "integer",
+    "nao_atendido": "integer",
+    "nv": "integer",
+    "na": "integer",
+    "criterio_pendente": "integer"
+  },
+  "validacao": "Em cada dimensão, total = atendido + parcial + nao_atendido + nv + na + criterio_pendente; total geral = soma dos totais das dimensões.",
+  "versao_contrato": "1.2",
+  "mapeamento_origem": {
+    "entidade": "consolidacao.resultados.painel.entidade <- 02-entidade.entidade_nome",
+    "municipio": "consolidacao.resultados.painel.municipio <- 02-entidade.municipio_uf",
+    "cnpj": "consolidacao.resultados.painel.cnpj <- 02-entidade.cnpj_identificacao.valor, apenas VERIFICADO e consistente com entidade_cnpj",
+    "data": "consolidacao.resultados.painel.data <- contexto.data_referencia <- 02-entidade.data_referencia = 01-ambiente.data_referencia",
+    "sintese": "consolidacao.resultados.painel.sintese <- resultados.analise_executiva (quatro listas auditadas)"
+  },
+  "regras_identificacao": {
+    "cnpj_nao_verificado": null,
+    "cnpj_formato_canonico": "14 digitos numericos sem mascara",
+    "cnpj_titularidade": "confirmar pessoa juridica responsavel e vinculo com escopo",
+    "data_referencia": "YYYY-MM-DD; nao e data de geracao do painel",
+    "ausencia": "null + ressalva; nunca inventar dados",
+    "inconsistencia": "bloqueia publicacao final",
+    "proveniencia": "resultados.painel.proveniencia_campos"
+  },
+  "compatibilidade": {
+    "template_html": "painel/v1.1/template.html",
+    "preserva_campos_raiz": true,
+    "preservacao_regra_pontuacao": true,
+    "teste_renderizacao": "PENDENTE",
+    "homologacao_formula": "PENDENTE"
+  }
+}

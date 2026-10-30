@@ -1,5 +1,5 @@
 {
-  "versao_template": "1.1",
+  "versao_template": "1.2",
   "descricao": "Contrato de integração entre Prompt 01 v2.3, Prompt 03 v1.3 e Prompt 05 v1.3; mantém esquema de apresentação e regra de pontuação do template HTML v1.1, sujeitos à homologação metodológica.",
   "regras": {
     "pontuacao": {
@@ -62,10 +62,27 @@
     "proveniencia": "resultados.painel.proveniencia_campos"
   },
   "compatibilidade": {
-    "template_html": "painel/v1.1/template.html",
+    "template_html": "painel/v1.2/template.html",
     "preserva_campos_raiz": true,
     "preservacao_regra_pontuacao": true,
     "teste_renderizacao": "PENDENTE",
-    "homologacao_formula": "PENDENTE"
+    "homologacao_formula": "PENDENTE",
+    "escala_fixa": {
+      "faixas": [
+        0,
+        50,
+        75,
+        90,
+        100
+      ],
+      "cores": [
+        "#EB4949",
+        "#FFD65A",
+        "#179B58",
+        "#1F7DC0"
+      ],
+      "marcador": "posicao percentual do indice",
+      "extremidades": "arredondadas"
+    }
   }
 }
